@@ -1,0 +1,13 @@
+# ninja log v5
+1	171	1687345044331327390	CMakeFiles/C__.dir/Chapter1/Source/sayHello.cpp.o	a1df97f4c3a97a97
+171	216	1687345044378149237	C__	c890c0370aec12d8
+1	51	1687345411270618216	build.ninja	cce31f1798dce64e
+6	524	1686839663948124168	CMakeFiles/C__.dir/main.cpp.o	fd6085a9d7590a8f
+545	588	1687345223632243311	myapp	ba2a0d794f6f8c38
+1	171	1687345044331326640	CMakeFiles/C__.dir/Chapter1/Source/demo.cpp.o	20c9ec595185798e
+0	543	1687345223585376425	CMakeFiles/myapp.dir/demo/ts.cpp.o	84307523ec4c7c6b
+1	196	1687345628048702726	CMakeFiles/CPP.dir/Chapter1/Source/sayHello.cpp.o	9379c43759ad7390
+0	196	1687345628048703767	CMakeFiles/CPP.dir/Chapter1/Source/demo.cpp.o	db025e57ad3a7633
+0	169	1687345686281852237	CMakeFiles/CPP.dir/Chapter1/Source/sayHello.cpp.o	9379c43759ad7390
+0	26	1687345689728737793	CMakeFiles/CPP.dir/Chapter1/Source/demo.cpp.o	db025e57ad3a7633
+26	71	1687345689774190149	CPP	22092ff5e9eeadf8
