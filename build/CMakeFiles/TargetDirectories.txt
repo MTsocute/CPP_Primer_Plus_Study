@@ -1,0 +1,9 @@
+/Users/momo/Desktop/CPP/build/CMakeFiles/myfirstcpp.dir
+/Users/momo/Desktop/CPP/build/CMakeFiles/limit.dir
+/Users/momo/Desktop/CPP/build/CMakeFiles/number_system.dir
+/Users/momo/Desktop/CPP/build/CMakeFiles/morechar.dir
+/Users/momo/Desktop/CPP/build/CMakeFiles/flimit.dir
+/Users/momo/Desktop/CPP/build/CMakeFiles/enforce_transform.dir
+/Users/momo/Desktop/CPP/build/CMakeFiles/autoVar.dir
+/Users/momo/Desktop/CPP/build/CMakeFiles/edit_cache.dir
+/Users/momo/Desktop/CPP/build/CMakeFiles/rebuild_cache.dir

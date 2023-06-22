@@ -1,4 +1,6 @@
-/Users/momo/Desktop/C++/cmake-build-debug/CMakeFiles/CPP.dir
-/Users/momo/Desktop/C++/cmake-build-debug/CMakeFiles/myapp.dir
-/Users/momo/Desktop/C++/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/momo/Desktop/C++/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/myfirstcpp.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/limit.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/number_system.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/morechar.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
