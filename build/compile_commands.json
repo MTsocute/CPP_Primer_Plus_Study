@@ -40,5 +40,65 @@
   "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/autoVar.dir/Chapter3/Source/auto变量.cpp.o -c /Users/momo/Desktop/CPP/Chapter3/Source/auto变量.cpp",
   "file": "/Users/momo/Desktop/CPP/Chapter3/Source/auto变量.cpp",
   "output": "CMakeFiles/autoVar.dir/Chapter3/Source/auto变量.cpp.o"
+},
+{
+  "directory": "/Users/momo/Desktop/CPP/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/array.dir/Chapter4/Source/数组.cpp.o -c /Users/momo/Desktop/CPP/Chapter4/Source/数组.cpp",
+  "file": "/Users/momo/Desktop/CPP/Chapter4/Source/数组.cpp",
+  "output": "CMakeFiles/array.dir/Chapter4/Source/数组.cpp.o"
+},
+{
+  "directory": "/Users/momo/Desktop/CPP/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/getline.dir/Chapter4/Source/读取一行.cpp.o -c /Users/momo/Desktop/CPP/Chapter4/Source/读取一行.cpp",
+  "file": "/Users/momo/Desktop/CPP/Chapter4/Source/读取一行.cpp",
+  "output": "CMakeFiles/getline.dir/Chapter4/Source/读取一行.cpp.o"
+},
+{
+  "directory": "/Users/momo/Desktop/CPP/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/mix_int_string.dir/Chapter4/Source/混合输入数字和字符串导致的问题.cpp.o -c /Users/momo/Desktop/CPP/Chapter4/Source/混合输入数字和字符串导致的问题.cpp",
+  "file": "/Users/momo/Desktop/CPP/Chapter4/Source/混合输入数字和字符串导致的问题.cpp",
+  "output": "CMakeFiles/mix_int_string.dir/Chapter4/Source/混合输入数字和字符串导致的问题.cpp.o"
+},
+{
+  "directory": "/Users/momo/Desktop/CPP/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/string.dir/Chapter4/Source/string的使用.cpp.o -c /Users/momo/Desktop/CPP/Chapter4/Source/string的使用.cpp",
+  "file": "/Users/momo/Desktop/CPP/Chapter4/Source/string的使用.cpp",
+  "output": "CMakeFiles/string.dir/Chapter4/Source/string的使用.cpp.o"
+},
+{
+  "directory": "/Users/momo/Desktop/CPP/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/Raw.dir/Chapter4/Source/原生字符串.cpp.o -c /Users/momo/Desktop/CPP/Chapter4/Source/原生字符串.cpp",
+  "file": "/Users/momo/Desktop/CPP/Chapter4/Source/原生字符串.cpp",
+  "output": "CMakeFiles/Raw.dir/Chapter4/Source/原生字符串.cpp.o"
+},
+{
+  "directory": "/Users/momo/Desktop/CPP/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/struct.dir/Chapter4/Source/结构.cpp.o -c /Users/momo/Desktop/CPP/Chapter4/Source/结构.cpp",
+  "file": "/Users/momo/Desktop/CPP/Chapter4/Source/结构.cpp",
+  "output": "CMakeFiles/struct.dir/Chapter4/Source/结构.cpp.o"
+},
+{
+  "directory": "/Users/momo/Desktop/CPP/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/bitField.dir/Chapter4/Source/位字段.cpp.o -c /Users/momo/Desktop/CPP/Chapter4/Source/位字段.cpp",
+  "file": "/Users/momo/Desktop/CPP/Chapter4/Source/位字段.cpp",
+  "output": "CMakeFiles/bitField.dir/Chapter4/Source/位字段.cpp.o"
+},
+{
+  "directory": "/Users/momo/Desktop/CPP/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/enum.dir/Chapter4/Source/枚举.cpp.o -c /Users/momo/Desktop/CPP/Chapter4/Source/枚举.cpp",
+  "file": "/Users/momo/Desktop/CPP/Chapter4/Source/枚举.cpp",
+  "output": "CMakeFiles/enum.dir/Chapter4/Source/枚举.cpp.o"
+},
+{
+  "directory": "/Users/momo/Desktop/CPP/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/new.dir/Chapter4/Source/new分配内存.cpp.o -c /Users/momo/Desktop/CPP/Chapter4/Source/new分配内存.cpp",
+  "file": "/Users/momo/Desktop/CPP/Chapter4/Source/new分配内存.cpp",
+  "output": "CMakeFiles/new.dir/Chapter4/Source/new分配内存.cpp.o"
+},
+{
+  "directory": "/Users/momo/Desktop/CPP/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/newArray.dir/Chapter4/Source/new创建动态数组.cpp.o -c /Users/momo/Desktop/CPP/Chapter4/Source/new创建动态数组.cpp",
+  "file": "/Users/momo/Desktop/CPP/Chapter4/Source/new创建动态数组.cpp",
+  "output": "CMakeFiles/newArray.dir/Chapter4/Source/new创建动态数组.cpp.o"
 }
 ]

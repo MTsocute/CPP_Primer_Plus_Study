@@ -207,6 +207,136 @@ autoVar/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/autoVar.dir/build.make CMakeFiles/autoVar.dir/build
 .PHONY : autoVar/fast
 
+#=============================================================================
+# Target rules for targets named array
+
+# Build rule for target.
+array: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 array
+.PHONY : array
+
+# fast build rule for target.
+array/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/build
+.PHONY : array/fast
+
+#=============================================================================
+# Target rules for targets named getline
+
+# Build rule for target.
+getline: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 getline
+.PHONY : getline
+
+# fast build rule for target.
+getline/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/getline.dir/build.make CMakeFiles/getline.dir/build
+.PHONY : getline/fast
+
+#=============================================================================
+# Target rules for targets named mix_int_string
+
+# Build rule for target.
+mix_int_string: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mix_int_string
+.PHONY : mix_int_string
+
+# fast build rule for target.
+mix_int_string/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mix_int_string.dir/build.make CMakeFiles/mix_int_string.dir/build
+.PHONY : mix_int_string/fast
+
+#=============================================================================
+# Target rules for targets named string
+
+# Build rule for target.
+string: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 string
+.PHONY : string
+
+# fast build rule for target.
+string/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/build
+.PHONY : string/fast
+
+#=============================================================================
+# Target rules for targets named Raw
+
+# Build rule for target.
+Raw: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Raw
+.PHONY : Raw
+
+# fast build rule for target.
+Raw/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raw.dir/build.make CMakeFiles/Raw.dir/build
+.PHONY : Raw/fast
+
+#=============================================================================
+# Target rules for targets named struct
+
+# Build rule for target.
+struct: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 struct
+.PHONY : struct
+
+# fast build rule for target.
+struct/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/build
+.PHONY : struct/fast
+
+#=============================================================================
+# Target rules for targets named bitField
+
+# Build rule for target.
+bitField: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bitField
+.PHONY : bitField
+
+# fast build rule for target.
+bitField/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitField.dir/build.make CMakeFiles/bitField.dir/build
+.PHONY : bitField/fast
+
+#=============================================================================
+# Target rules for targets named enum
+
+# Build rule for target.
+enum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 enum
+.PHONY : enum
+
+# fast build rule for target.
+enum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enum.dir/build.make CMakeFiles/enum.dir/build
+.PHONY : enum/fast
+
+#=============================================================================
+# Target rules for targets named new
+
+# Build rule for target.
+new: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 new
+.PHONY : new
+
+# fast build rule for target.
+new/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new.dir/build.make CMakeFiles/new.dir/build
+.PHONY : new/fast
+
+#=============================================================================
+# Target rules for targets named newArray
+
+# Build rule for target.
+newArray: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 newArray
+.PHONY : newArray
+
+# fast build rule for target.
+newArray/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/newArray.dir/build.make CMakeFiles/newArray.dir/build
+.PHONY : newArray/fast
+
 Chapter2/Source/helloworld.o: Chapter2/Source/helloworld.cpp.o
 .PHONY : Chapter2/Source/helloworld.o
 
@@ -375,6 +505,246 @@ Chapter3/Source/浮点数的限制.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flimit.dir/build.make CMakeFiles/flimit.dir/Chapter3/Source/浮点数的限制.cpp.s
 .PHONY : Chapter3/Source/浮点数的限制.cpp.s
 
+Chapter4/Source/new分配内存.o: Chapter4/Source/new分配内存.cpp.o
+.PHONY : Chapter4/Source/new分配内存.o
+
+# target to build an object file
+Chapter4/Source/new分配内存.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new.dir/build.make CMakeFiles/new.dir/Chapter4/Source/new分配内存.cpp.o
+.PHONY : Chapter4/Source/new分配内存.cpp.o
+
+Chapter4/Source/new分配内存.i: Chapter4/Source/new分配内存.cpp.i
+.PHONY : Chapter4/Source/new分配内存.i
+
+# target to preprocess a source file
+Chapter4/Source/new分配内存.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new.dir/build.make CMakeFiles/new.dir/Chapter4/Source/new分配内存.cpp.i
+.PHONY : Chapter4/Source/new分配内存.cpp.i
+
+Chapter4/Source/new分配内存.s: Chapter4/Source/new分配内存.cpp.s
+.PHONY : Chapter4/Source/new分配内存.s
+
+# target to generate assembly for a file
+Chapter4/Source/new分配内存.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new.dir/build.make CMakeFiles/new.dir/Chapter4/Source/new分配内存.cpp.s
+.PHONY : Chapter4/Source/new分配内存.cpp.s
+
+Chapter4/Source/new创建动态数组.o: Chapter4/Source/new创建动态数组.cpp.o
+.PHONY : Chapter4/Source/new创建动态数组.o
+
+# target to build an object file
+Chapter4/Source/new创建动态数组.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/newArray.dir/build.make CMakeFiles/newArray.dir/Chapter4/Source/new创建动态数组.cpp.o
+.PHONY : Chapter4/Source/new创建动态数组.cpp.o
+
+Chapter4/Source/new创建动态数组.i: Chapter4/Source/new创建动态数组.cpp.i
+.PHONY : Chapter4/Source/new创建动态数组.i
+
+# target to preprocess a source file
+Chapter4/Source/new创建动态数组.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/newArray.dir/build.make CMakeFiles/newArray.dir/Chapter4/Source/new创建动态数组.cpp.i
+.PHONY : Chapter4/Source/new创建动态数组.cpp.i
+
+Chapter4/Source/new创建动态数组.s: Chapter4/Source/new创建动态数组.cpp.s
+.PHONY : Chapter4/Source/new创建动态数组.s
+
+# target to generate assembly for a file
+Chapter4/Source/new创建动态数组.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/newArray.dir/build.make CMakeFiles/newArray.dir/Chapter4/Source/new创建动态数组.cpp.s
+.PHONY : Chapter4/Source/new创建动态数组.cpp.s
+
+Chapter4/Source/string的使用.o: Chapter4/Source/string的使用.cpp.o
+.PHONY : Chapter4/Source/string的使用.o
+
+# target to build an object file
+Chapter4/Source/string的使用.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/Chapter4/Source/string的使用.cpp.o
+.PHONY : Chapter4/Source/string的使用.cpp.o
+
+Chapter4/Source/string的使用.i: Chapter4/Source/string的使用.cpp.i
+.PHONY : Chapter4/Source/string的使用.i
+
+# target to preprocess a source file
+Chapter4/Source/string的使用.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/Chapter4/Source/string的使用.cpp.i
+.PHONY : Chapter4/Source/string的使用.cpp.i
+
+Chapter4/Source/string的使用.s: Chapter4/Source/string的使用.cpp.s
+.PHONY : Chapter4/Source/string的使用.s
+
+# target to generate assembly for a file
+Chapter4/Source/string的使用.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/Chapter4/Source/string的使用.cpp.s
+.PHONY : Chapter4/Source/string的使用.cpp.s
+
+Chapter4/Source/位字段.o: Chapter4/Source/位字段.cpp.o
+.PHONY : Chapter4/Source/位字段.o
+
+# target to build an object file
+Chapter4/Source/位字段.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitField.dir/build.make CMakeFiles/bitField.dir/Chapter4/Source/位字段.cpp.o
+.PHONY : Chapter4/Source/位字段.cpp.o
+
+Chapter4/Source/位字段.i: Chapter4/Source/位字段.cpp.i
+.PHONY : Chapter4/Source/位字段.i
+
+# target to preprocess a source file
+Chapter4/Source/位字段.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitField.dir/build.make CMakeFiles/bitField.dir/Chapter4/Source/位字段.cpp.i
+.PHONY : Chapter4/Source/位字段.cpp.i
+
+Chapter4/Source/位字段.s: Chapter4/Source/位字段.cpp.s
+.PHONY : Chapter4/Source/位字段.s
+
+# target to generate assembly for a file
+Chapter4/Source/位字段.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitField.dir/build.make CMakeFiles/bitField.dir/Chapter4/Source/位字段.cpp.s
+.PHONY : Chapter4/Source/位字段.cpp.s
+
+Chapter4/Source/原生字符串.o: Chapter4/Source/原生字符串.cpp.o
+.PHONY : Chapter4/Source/原生字符串.o
+
+# target to build an object file
+Chapter4/Source/原生字符串.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raw.dir/build.make CMakeFiles/Raw.dir/Chapter4/Source/原生字符串.cpp.o
+.PHONY : Chapter4/Source/原生字符串.cpp.o
+
+Chapter4/Source/原生字符串.i: Chapter4/Source/原生字符串.cpp.i
+.PHONY : Chapter4/Source/原生字符串.i
+
+# target to preprocess a source file
+Chapter4/Source/原生字符串.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raw.dir/build.make CMakeFiles/Raw.dir/Chapter4/Source/原生字符串.cpp.i
+.PHONY : Chapter4/Source/原生字符串.cpp.i
+
+Chapter4/Source/原生字符串.s: Chapter4/Source/原生字符串.cpp.s
+.PHONY : Chapter4/Source/原生字符串.s
+
+# target to generate assembly for a file
+Chapter4/Source/原生字符串.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raw.dir/build.make CMakeFiles/Raw.dir/Chapter4/Source/原生字符串.cpp.s
+.PHONY : Chapter4/Source/原生字符串.cpp.s
+
+Chapter4/Source/数组.o: Chapter4/Source/数组.cpp.o
+.PHONY : Chapter4/Source/数组.o
+
+# target to build an object file
+Chapter4/Source/数组.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/Chapter4/Source/数组.cpp.o
+.PHONY : Chapter4/Source/数组.cpp.o
+
+Chapter4/Source/数组.i: Chapter4/Source/数组.cpp.i
+.PHONY : Chapter4/Source/数组.i
+
+# target to preprocess a source file
+Chapter4/Source/数组.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/Chapter4/Source/数组.cpp.i
+.PHONY : Chapter4/Source/数组.cpp.i
+
+Chapter4/Source/数组.s: Chapter4/Source/数组.cpp.s
+.PHONY : Chapter4/Source/数组.s
+
+# target to generate assembly for a file
+Chapter4/Source/数组.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/Chapter4/Source/数组.cpp.s
+.PHONY : Chapter4/Source/数组.cpp.s
+
+Chapter4/Source/枚举.o: Chapter4/Source/枚举.cpp.o
+.PHONY : Chapter4/Source/枚举.o
+
+# target to build an object file
+Chapter4/Source/枚举.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enum.dir/build.make CMakeFiles/enum.dir/Chapter4/Source/枚举.cpp.o
+.PHONY : Chapter4/Source/枚举.cpp.o
+
+Chapter4/Source/枚举.i: Chapter4/Source/枚举.cpp.i
+.PHONY : Chapter4/Source/枚举.i
+
+# target to preprocess a source file
+Chapter4/Source/枚举.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enum.dir/build.make CMakeFiles/enum.dir/Chapter4/Source/枚举.cpp.i
+.PHONY : Chapter4/Source/枚举.cpp.i
+
+Chapter4/Source/枚举.s: Chapter4/Source/枚举.cpp.s
+.PHONY : Chapter4/Source/枚举.s
+
+# target to generate assembly for a file
+Chapter4/Source/枚举.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enum.dir/build.make CMakeFiles/enum.dir/Chapter4/Source/枚举.cpp.s
+.PHONY : Chapter4/Source/枚举.cpp.s
+
+Chapter4/Source/混合输入数字和字符串导致的问题.o: Chapter4/Source/混合输入数字和字符串导致的问题.cpp.o
+.PHONY : Chapter4/Source/混合输入数字和字符串导致的问题.o
+
+# target to build an object file
+Chapter4/Source/混合输入数字和字符串导致的问题.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mix_int_string.dir/build.make CMakeFiles/mix_int_string.dir/Chapter4/Source/混合输入数字和字符串导致的问题.cpp.o
+.PHONY : Chapter4/Source/混合输入数字和字符串导致的问题.cpp.o
+
+Chapter4/Source/混合输入数字和字符串导致的问题.i: Chapter4/Source/混合输入数字和字符串导致的问题.cpp.i
+.PHONY : Chapter4/Source/混合输入数字和字符串导致的问题.i
+
+# target to preprocess a source file
+Chapter4/Source/混合输入数字和字符串导致的问题.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mix_int_string.dir/build.make CMakeFiles/mix_int_string.dir/Chapter4/Source/混合输入数字和字符串导致的问题.cpp.i
+.PHONY : Chapter4/Source/混合输入数字和字符串导致的问题.cpp.i
+
+Chapter4/Source/混合输入数字和字符串导致的问题.s: Chapter4/Source/混合输入数字和字符串导致的问题.cpp.s
+.PHONY : Chapter4/Source/混合输入数字和字符串导致的问题.s
+
+# target to generate assembly for a file
+Chapter4/Source/混合输入数字和字符串导致的问题.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mix_int_string.dir/build.make CMakeFiles/mix_int_string.dir/Chapter4/Source/混合输入数字和字符串导致的问题.cpp.s
+.PHONY : Chapter4/Source/混合输入数字和字符串导致的问题.cpp.s
+
+Chapter4/Source/结构.o: Chapter4/Source/结构.cpp.o
+.PHONY : Chapter4/Source/结构.o
+
+# target to build an object file
+Chapter4/Source/结构.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/Chapter4/Source/结构.cpp.o
+.PHONY : Chapter4/Source/结构.cpp.o
+
+Chapter4/Source/结构.i: Chapter4/Source/结构.cpp.i
+.PHONY : Chapter4/Source/结构.i
+
+# target to preprocess a source file
+Chapter4/Source/结构.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/Chapter4/Source/结构.cpp.i
+.PHONY : Chapter4/Source/结构.cpp.i
+
+Chapter4/Source/结构.s: Chapter4/Source/结构.cpp.s
+.PHONY : Chapter4/Source/结构.s
+
+# target to generate assembly for a file
+Chapter4/Source/结构.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/Chapter4/Source/结构.cpp.s
+.PHONY : Chapter4/Source/结构.cpp.s
+
+Chapter4/Source/读取一行.o: Chapter4/Source/读取一行.cpp.o
+.PHONY : Chapter4/Source/读取一行.o
+
+# target to build an object file
+Chapter4/Source/读取一行.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/getline.dir/build.make CMakeFiles/getline.dir/Chapter4/Source/读取一行.cpp.o
+.PHONY : Chapter4/Source/读取一行.cpp.o
+
+Chapter4/Source/读取一行.i: Chapter4/Source/读取一行.cpp.i
+.PHONY : Chapter4/Source/读取一行.i
+
+# target to preprocess a source file
+Chapter4/Source/读取一行.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/getline.dir/build.make CMakeFiles/getline.dir/Chapter4/Source/读取一行.cpp.i
+.PHONY : Chapter4/Source/读取一行.cpp.i
+
+Chapter4/Source/读取一行.s: Chapter4/Source/读取一行.cpp.s
+.PHONY : Chapter4/Source/读取一行.s
+
+# target to generate assembly for a file
+Chapter4/Source/读取一行.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/getline.dir/build.make CMakeFiles/getline.dir/Chapter4/Source/读取一行.cpp.s
+.PHONY : Chapter4/Source/读取一行.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -383,13 +753,23 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... Raw"
+	@echo "... array"
 	@echo "... autoVar"
+	@echo "... bitField"
 	@echo "... enforce_transform"
+	@echo "... enum"
 	@echo "... flimit"
+	@echo "... getline"
 	@echo "... limit"
+	@echo "... mix_int_string"
 	@echo "... morechar"
 	@echo "... myfirstcpp"
+	@echo "... new"
+	@echo "... newArray"
 	@echo "... number_system"
+	@echo "... string"
+	@echo "... struct"
 	@echo "... Chapter2/Source/helloworld.o"
 	@echo "... Chapter2/Source/helloworld.i"
 	@echo "... Chapter2/Source/helloworld.s"
@@ -411,6 +791,36 @@ help:
 	@echo "... Chapter3/Source/浮点数的限制.o"
 	@echo "... Chapter3/Source/浮点数的限制.i"
 	@echo "... Chapter3/Source/浮点数的限制.s"
+	@echo "... Chapter4/Source/new分配内存.o"
+	@echo "... Chapter4/Source/new分配内存.i"
+	@echo "... Chapter4/Source/new分配内存.s"
+	@echo "... Chapter4/Source/new创建动态数组.o"
+	@echo "... Chapter4/Source/new创建动态数组.i"
+	@echo "... Chapter4/Source/new创建动态数组.s"
+	@echo "... Chapter4/Source/string的使用.o"
+	@echo "... Chapter4/Source/string的使用.i"
+	@echo "... Chapter4/Source/string的使用.s"
+	@echo "... Chapter4/Source/位字段.o"
+	@echo "... Chapter4/Source/位字段.i"
+	@echo "... Chapter4/Source/位字段.s"
+	@echo "... Chapter4/Source/原生字符串.o"
+	@echo "... Chapter4/Source/原生字符串.i"
+	@echo "... Chapter4/Source/原生字符串.s"
+	@echo "... Chapter4/Source/数组.o"
+	@echo "... Chapter4/Source/数组.i"
+	@echo "... Chapter4/Source/数组.s"
+	@echo "... Chapter4/Source/枚举.o"
+	@echo "... Chapter4/Source/枚举.i"
+	@echo "... Chapter4/Source/枚举.s"
+	@echo "... Chapter4/Source/混合输入数字和字符串导致的问题.o"
+	@echo "... Chapter4/Source/混合输入数字和字符串导致的问题.i"
+	@echo "... Chapter4/Source/混合输入数字和字符串导致的问题.s"
+	@echo "... Chapter4/Source/结构.o"
+	@echo "... Chapter4/Source/结构.i"
+	@echo "... Chapter4/Source/结构.s"
+	@echo "... Chapter4/Source/读取一行.o"
+	@echo "... Chapter4/Source/读取一行.i"
+	@echo "... Chapter4/Source/读取一行.s"
 .PHONY : help
 
 

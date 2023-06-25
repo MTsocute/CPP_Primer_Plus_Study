@@ -5,5 +5,15 @@
 /Users/momo/Desktop/CPP/build/CMakeFiles/flimit.dir
 /Users/momo/Desktop/CPP/build/CMakeFiles/enforce_transform.dir
 /Users/momo/Desktop/CPP/build/CMakeFiles/autoVar.dir
+/Users/momo/Desktop/CPP/build/CMakeFiles/array.dir
+/Users/momo/Desktop/CPP/build/CMakeFiles/getline.dir
+/Users/momo/Desktop/CPP/build/CMakeFiles/mix_int_string.dir
+/Users/momo/Desktop/CPP/build/CMakeFiles/string.dir
+/Users/momo/Desktop/CPP/build/CMakeFiles/Raw.dir
+/Users/momo/Desktop/CPP/build/CMakeFiles/struct.dir
+/Users/momo/Desktop/CPP/build/CMakeFiles/bitField.dir
+/Users/momo/Desktop/CPP/build/CMakeFiles/enum.dir
+/Users/momo/Desktop/CPP/build/CMakeFiles/new.dir
+/Users/momo/Desktop/CPP/build/CMakeFiles/newArray.dir
 /Users/momo/Desktop/CPP/build/CMakeFiles/edit_cache.dir
 /Users/momo/Desktop/CPP/build/CMakeFiles/rebuild_cache.dir

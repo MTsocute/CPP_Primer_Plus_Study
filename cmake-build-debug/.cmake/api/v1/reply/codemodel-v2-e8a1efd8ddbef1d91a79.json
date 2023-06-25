@@ -1,0 +1,231 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CPP",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Raw::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Raw-Debug-5ded18457e9d14e68206.json",
+					"name" : "Raw",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "array::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-array-Debug-3fc3d9bed9ad42ab9349.json",
+					"name" : "array",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arrayTemple::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arrayTemple-Debug-35bbe979d763d7326ee5.json",
+					"name" : "arrayTemple",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autoVar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autoVar-Debug-e8ea2cfa8bed99358a38.json",
+					"name" : "autoVar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bitField::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bitField-Debug-60ce5c6cb4cbbdf09cbb.json",
+					"name" : "bitField",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "enforce_transform::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-enforce_transform-Debug-90082f01cffd146e5314.json",
+					"name" : "enforce_transform",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "enum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-enum-Debug-64d2cb9cbe9ea5816014.json",
+					"name" : "enum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "flimit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-flimit-Debug-5b8813d53577f226a9e6.json",
+					"name" : "flimit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "getline::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-getline-Debug-2ff114f4df9e13b79d86.json",
+					"name" : "getline",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "limit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-limit-Debug-dc097316207d26472325.json",
+					"name" : "limit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mix_int_string::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mix_int_string-Debug-a342e9550d0560683a2c.json",
+					"name" : "mix_int_string",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "morechar::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-morechar-Debug-4dfea853dd806e0651eb.json",
+					"name" : "morechar",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "myfirstcpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-myfirstcpp-Debug-484a0a0462759bde977c.json",
+					"name" : "myfirstcpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "new::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-new-Debug-1135af58f0cb80aca423.json",
+					"name" : "new",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "newArray::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-newArray-Debug-d440cfa8cd5d975186c6.json",
+					"name" : "newArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "number_system::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-number_system-Debug-0057fc819b06c43cb661.json",
+					"name" : "number_system",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointerArr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointerArr-Debug-0ea7bde8421a6cc43c51.json",
+					"name" : "pointerArr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "string::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-string-Debug-c661be1d3412abf6f8bf.json",
+					"name" : "string",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "struct::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-struct-Debug-fdac7d7babfc7c30a7d2.json",
+					"name" : "struct",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vector-Debug-897deee0969a1f522474.json",
+					"name" : "vector",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/momo/Desktop/CPP/cmake-build-debug",
+		"source" : "/Users/momo/Desktop/CPP"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

@@ -70,6 +70,16 @@ all: CMakeFiles/morechar.dir/all
 all: CMakeFiles/flimit.dir/all
 all: CMakeFiles/enforce_transform.dir/all
 all: CMakeFiles/autoVar.dir/all
+all: CMakeFiles/array.dir/all
+all: CMakeFiles/getline.dir/all
+all: CMakeFiles/mix_int_string.dir/all
+all: CMakeFiles/string.dir/all
+all: CMakeFiles/Raw.dir/all
+all: CMakeFiles/struct.dir/all
+all: CMakeFiles/bitField.dir/all
+all: CMakeFiles/enum.dir/all
+all: CMakeFiles/new.dir/all
+all: CMakeFiles/newArray.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -84,6 +94,16 @@ clean: CMakeFiles/morechar.dir/clean
 clean: CMakeFiles/flimit.dir/clean
 clean: CMakeFiles/enforce_transform.dir/clean
 clean: CMakeFiles/autoVar.dir/clean
+clean: CMakeFiles/array.dir/clean
+clean: CMakeFiles/getline.dir/clean
+clean: CMakeFiles/mix_int_string.dir/clean
+clean: CMakeFiles/string.dir/clean
+clean: CMakeFiles/Raw.dir/clean
+clean: CMakeFiles/struct.dir/clean
+clean: CMakeFiles/bitField.dir/clean
+clean: CMakeFiles/enum.dir/clean
+clean: CMakeFiles/new.dir/clean
+clean: CMakeFiles/newArray.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -93,7 +113,7 @@ clean: CMakeFiles/autoVar.dir/clean
 CMakeFiles/myfirstcpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myfirstcpp.dir/build.make CMakeFiles/myfirstcpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/myfirstcpp.dir/build.make CMakeFiles/myfirstcpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/momo/Desktop/CPP/build/CMakeFiles --progress-num=11,12 "Built target myfirstcpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/momo/Desktop/CPP/build/CMakeFiles --progress-num=23,24 "Built target myfirstcpp"
 .PHONY : CMakeFiles/myfirstcpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -119,7 +139,7 @@ CMakeFiles/myfirstcpp.dir/clean:
 CMakeFiles/limit.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/limit.dir/build.make CMakeFiles/limit.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/limit.dir/build.make CMakeFiles/limit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/momo/Desktop/CPP/build/CMakeFiles --progress-num=7,8 "Built target limit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/momo/Desktop/CPP/build/CMakeFiles --progress-num=17,18 "Built target limit"
 .PHONY : CMakeFiles/limit.dir/all
 
 # Build rule for subdir invocation for target.
@@ -145,7 +165,7 @@ CMakeFiles/limit.dir/clean:
 CMakeFiles/number_system.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_system.dir/build.make CMakeFiles/number_system.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/number_system.dir/build.make CMakeFiles/number_system.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/momo/Desktop/CPP/build/CMakeFiles --progress-num=13,14 "Built target number_system"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/momo/Desktop/CPP/build/CMakeFiles --progress-num=29,30 "Built target number_system"
 .PHONY : CMakeFiles/number_system.dir/all
 
 # Build rule for subdir invocation for target.
@@ -171,7 +191,7 @@ CMakeFiles/number_system.dir/clean:
 CMakeFiles/morechar.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/morechar.dir/build.make CMakeFiles/morechar.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/morechar.dir/build.make CMakeFiles/morechar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/momo/Desktop/CPP/build/CMakeFiles --progress-num=9,10 "Built target morechar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/momo/Desktop/CPP/build/CMakeFiles --progress-num=21,22 "Built target morechar"
 .PHONY : CMakeFiles/morechar.dir/all
 
 # Build rule for subdir invocation for target.
@@ -197,7 +217,7 @@ CMakeFiles/morechar.dir/clean:
 CMakeFiles/flimit.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flimit.dir/build.make CMakeFiles/flimit.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flimit.dir/build.make CMakeFiles/flimit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/momo/Desktop/CPP/build/CMakeFiles --progress-num=5,6 "Built target flimit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/momo/Desktop/CPP/build/CMakeFiles --progress-num=13,14 "Built target flimit"
 .PHONY : CMakeFiles/flimit.dir/all
 
 # Build rule for subdir invocation for target.
@@ -223,7 +243,7 @@ CMakeFiles/flimit.dir/clean:
 CMakeFiles/enforce_transform.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/enforce_transform.dir/build.make CMakeFiles/enforce_transform.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/enforce_transform.dir/build.make CMakeFiles/enforce_transform.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/momo/Desktop/CPP/build/CMakeFiles --progress-num=3,4 "Built target enforce_transform"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/momo/Desktop/CPP/build/CMakeFiles --progress-num=9,10 "Built target enforce_transform"
 .PHONY : CMakeFiles/enforce_transform.dir/all
 
 # Build rule for subdir invocation for target.
@@ -249,7 +269,7 @@ CMakeFiles/enforce_transform.dir/clean:
 CMakeFiles/autoVar.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/autoVar.dir/build.make CMakeFiles/autoVar.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/autoVar.dir/build.make CMakeFiles/autoVar.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/momo/Desktop/CPP/build/CMakeFiles --progress-num=1,2 "Built target autoVar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/momo/Desktop/CPP/build/CMakeFiles --progress-num=5,6 "Built target autoVar"
 .PHONY : CMakeFiles/autoVar.dir/all
 
 # Build rule for subdir invocation for target.
@@ -267,6 +287,266 @@ autoVar: CMakeFiles/autoVar.dir/rule
 CMakeFiles/autoVar.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/autoVar.dir/build.make CMakeFiles/autoVar.dir/clean
 .PHONY : CMakeFiles/autoVar.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/array.dir
+
+# All Build rule for target.
+CMakeFiles/array.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/momo/Desktop/CPP/build/CMakeFiles --progress-num=3,4 "Built target array"
+.PHONY : CMakeFiles/array.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/array.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/momo/Desktop/CPP/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/array.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/momo/Desktop/CPP/build/CMakeFiles 0
+.PHONY : CMakeFiles/array.dir/rule
+
+# Convenience name for target.
+array: CMakeFiles/array.dir/rule
+.PHONY : array
+
+# clean rule for target.
+CMakeFiles/array.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/array.dir/build.make CMakeFiles/array.dir/clean
+.PHONY : CMakeFiles/array.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/getline.dir
+
+# All Build rule for target.
+CMakeFiles/getline.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/getline.dir/build.make CMakeFiles/getline.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/getline.dir/build.make CMakeFiles/getline.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/momo/Desktop/CPP/build/CMakeFiles --progress-num=15,16 "Built target getline"
+.PHONY : CMakeFiles/getline.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/getline.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/momo/Desktop/CPP/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/getline.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/momo/Desktop/CPP/build/CMakeFiles 0
+.PHONY : CMakeFiles/getline.dir/rule
+
+# Convenience name for target.
+getline: CMakeFiles/getline.dir/rule
+.PHONY : getline
+
+# clean rule for target.
+CMakeFiles/getline.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/getline.dir/build.make CMakeFiles/getline.dir/clean
+.PHONY : CMakeFiles/getline.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/mix_int_string.dir
+
+# All Build rule for target.
+CMakeFiles/mix_int_string.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mix_int_string.dir/build.make CMakeFiles/mix_int_string.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mix_int_string.dir/build.make CMakeFiles/mix_int_string.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/momo/Desktop/CPP/build/CMakeFiles --progress-num=19,20 "Built target mix_int_string"
+.PHONY : CMakeFiles/mix_int_string.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/mix_int_string.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/momo/Desktop/CPP/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mix_int_string.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/momo/Desktop/CPP/build/CMakeFiles 0
+.PHONY : CMakeFiles/mix_int_string.dir/rule
+
+# Convenience name for target.
+mix_int_string: CMakeFiles/mix_int_string.dir/rule
+.PHONY : mix_int_string
+
+# clean rule for target.
+CMakeFiles/mix_int_string.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mix_int_string.dir/build.make CMakeFiles/mix_int_string.dir/clean
+.PHONY : CMakeFiles/mix_int_string.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/string.dir
+
+# All Build rule for target.
+CMakeFiles/string.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/momo/Desktop/CPP/build/CMakeFiles --progress-num=31,32 "Built target string"
+.PHONY : CMakeFiles/string.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/string.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/momo/Desktop/CPP/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/string.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/momo/Desktop/CPP/build/CMakeFiles 0
+.PHONY : CMakeFiles/string.dir/rule
+
+# Convenience name for target.
+string: CMakeFiles/string.dir/rule
+.PHONY : string
+
+# clean rule for target.
+CMakeFiles/string.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/clean
+.PHONY : CMakeFiles/string.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Raw.dir
+
+# All Build rule for target.
+CMakeFiles/Raw.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raw.dir/build.make CMakeFiles/Raw.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raw.dir/build.make CMakeFiles/Raw.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/momo/Desktop/CPP/build/CMakeFiles --progress-num=1,2 "Built target Raw"
+.PHONY : CMakeFiles/Raw.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Raw.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/momo/Desktop/CPP/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Raw.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/momo/Desktop/CPP/build/CMakeFiles 0
+.PHONY : CMakeFiles/Raw.dir/rule
+
+# Convenience name for target.
+Raw: CMakeFiles/Raw.dir/rule
+.PHONY : Raw
+
+# clean rule for target.
+CMakeFiles/Raw.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raw.dir/build.make CMakeFiles/Raw.dir/clean
+.PHONY : CMakeFiles/Raw.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/struct.dir
+
+# All Build rule for target.
+CMakeFiles/struct.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/momo/Desktop/CPP/build/CMakeFiles --progress-num=33,34 "Built target struct"
+.PHONY : CMakeFiles/struct.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/struct.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/momo/Desktop/CPP/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/struct.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/momo/Desktop/CPP/build/CMakeFiles 0
+.PHONY : CMakeFiles/struct.dir/rule
+
+# Convenience name for target.
+struct: CMakeFiles/struct.dir/rule
+.PHONY : struct
+
+# clean rule for target.
+CMakeFiles/struct.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/struct.dir/build.make CMakeFiles/struct.dir/clean
+.PHONY : CMakeFiles/struct.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/bitField.dir
+
+# All Build rule for target.
+CMakeFiles/bitField.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitField.dir/build.make CMakeFiles/bitField.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitField.dir/build.make CMakeFiles/bitField.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/momo/Desktop/CPP/build/CMakeFiles --progress-num=7,8 "Built target bitField"
+.PHONY : CMakeFiles/bitField.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/bitField.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/momo/Desktop/CPP/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/bitField.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/momo/Desktop/CPP/build/CMakeFiles 0
+.PHONY : CMakeFiles/bitField.dir/rule
+
+# Convenience name for target.
+bitField: CMakeFiles/bitField.dir/rule
+.PHONY : bitField
+
+# clean rule for target.
+CMakeFiles/bitField.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bitField.dir/build.make CMakeFiles/bitField.dir/clean
+.PHONY : CMakeFiles/bitField.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/enum.dir
+
+# All Build rule for target.
+CMakeFiles/enum.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enum.dir/build.make CMakeFiles/enum.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enum.dir/build.make CMakeFiles/enum.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/momo/Desktop/CPP/build/CMakeFiles --progress-num=11,12 "Built target enum"
+.PHONY : CMakeFiles/enum.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/enum.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/momo/Desktop/CPP/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/enum.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/momo/Desktop/CPP/build/CMakeFiles 0
+.PHONY : CMakeFiles/enum.dir/rule
+
+# Convenience name for target.
+enum: CMakeFiles/enum.dir/rule
+.PHONY : enum
+
+# clean rule for target.
+CMakeFiles/enum.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enum.dir/build.make CMakeFiles/enum.dir/clean
+.PHONY : CMakeFiles/enum.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/new.dir
+
+# All Build rule for target.
+CMakeFiles/new.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new.dir/build.make CMakeFiles/new.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new.dir/build.make CMakeFiles/new.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/momo/Desktop/CPP/build/CMakeFiles --progress-num=25,26 "Built target new"
+.PHONY : CMakeFiles/new.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/new.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/momo/Desktop/CPP/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/new.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/momo/Desktop/CPP/build/CMakeFiles 0
+.PHONY : CMakeFiles/new.dir/rule
+
+# Convenience name for target.
+new: CMakeFiles/new.dir/rule
+.PHONY : new
+
+# clean rule for target.
+CMakeFiles/new.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/new.dir/build.make CMakeFiles/new.dir/clean
+.PHONY : CMakeFiles/new.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/newArray.dir
+
+# All Build rule for target.
+CMakeFiles/newArray.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/newArray.dir/build.make CMakeFiles/newArray.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/newArray.dir/build.make CMakeFiles/newArray.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/momo/Desktop/CPP/build/CMakeFiles --progress-num=27,28 "Built target newArray"
+.PHONY : CMakeFiles/newArray.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/newArray.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/momo/Desktop/CPP/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/newArray.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/momo/Desktop/CPP/build/CMakeFiles 0
+.PHONY : CMakeFiles/newArray.dir/rule
+
+# Convenience name for target.
+newArray: CMakeFiles/newArray.dir/rule
+.PHONY : newArray
+
+# clean rule for target.
+CMakeFiles/newArray.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/newArray.dir/build.make CMakeFiles/newArray.dir/clean
+.PHONY : CMakeFiles/newArray.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -164,6 +164,502 @@ build morechar: CXX_EXECUTABLE_LINKER__morechar_Debug CMakeFiles/morechar.dir/Ch
   TARGET_FILE = morechar
   TARGET_PDB = morechar.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target flimit
+
+
+#############################################
+# Order-only phony target for flimit
+
+build cmake_object_order_depends_target_flimit: phony || CMakeFiles/flimit.dir
+
+build CMakeFiles/flimit.dir/Chapter3/Source/浮点数的限制.cpp.o: CXX_COMPILER__flimit_Debug /Users/momo/Desktop/CPP/Chapter3/Source/浮点数的限制.cpp || cmake_object_order_depends_target_flimit
+  DEP_FILE = CMakeFiles/flimit.dir/Chapter3/Source/浮点数的限制.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/flimit.dir
+  OBJECT_FILE_DIR = CMakeFiles/flimit.dir/Chapter3/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target flimit
+
+
+#############################################
+# Link the executable flimit
+
+build flimit: CXX_EXECUTABLE_LINKER__flimit_Debug CMakeFiles/flimit.dir/Chapter3/Source/浮点数的限制.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/flimit.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = flimit
+  TARGET_PDB = flimit.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target enforce_transform
+
+
+#############################################
+# Order-only phony target for enforce_transform
+
+build cmake_object_order_depends_target_enforce_transform: phony || CMakeFiles/enforce_transform.dir
+
+build CMakeFiles/enforce_transform.dir/Chapter3/Source/强制转换.cpp.o: CXX_COMPILER__enforce_transform_Debug /Users/momo/Desktop/CPP/Chapter3/Source/强制转换.cpp || cmake_object_order_depends_target_enforce_transform
+  DEP_FILE = CMakeFiles/enforce_transform.dir/Chapter3/Source/强制转换.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/enforce_transform.dir
+  OBJECT_FILE_DIR = CMakeFiles/enforce_transform.dir/Chapter3/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target enforce_transform
+
+
+#############################################
+# Link the executable enforce_transform
+
+build enforce_transform: CXX_EXECUTABLE_LINKER__enforce_transform_Debug CMakeFiles/enforce_transform.dir/Chapter3/Source/强制转换.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/enforce_transform.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = enforce_transform
+  TARGET_PDB = enforce_transform.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target autoVar
+
+
+#############################################
+# Order-only phony target for autoVar
+
+build cmake_object_order_depends_target_autoVar: phony || CMakeFiles/autoVar.dir
+
+build CMakeFiles/autoVar.dir/Chapter3/Source/auto变量.cpp.o: CXX_COMPILER__autoVar_Debug /Users/momo/Desktop/CPP/Chapter3/Source/auto变量.cpp || cmake_object_order_depends_target_autoVar
+  DEP_FILE = CMakeFiles/autoVar.dir/Chapter3/Source/auto变量.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/autoVar.dir
+  OBJECT_FILE_DIR = CMakeFiles/autoVar.dir/Chapter3/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target autoVar
+
+
+#############################################
+# Link the executable autoVar
+
+build autoVar: CXX_EXECUTABLE_LINKER__autoVar_Debug CMakeFiles/autoVar.dir/Chapter3/Source/auto变量.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/autoVar.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = autoVar
+  TARGET_PDB = autoVar.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target array
+
+
+#############################################
+# Order-only phony target for array
+
+build cmake_object_order_depends_target_array: phony || CMakeFiles/array.dir
+
+build CMakeFiles/array.dir/Chapter4/Source/数组.cpp.o: CXX_COMPILER__array_Debug /Users/momo/Desktop/CPP/Chapter4/Source/数组.cpp || cmake_object_order_depends_target_array
+  DEP_FILE = CMakeFiles/array.dir/Chapter4/Source/数组.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/array.dir
+  OBJECT_FILE_DIR = CMakeFiles/array.dir/Chapter4/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target array
+
+
+#############################################
+# Link the executable array
+
+build array: CXX_EXECUTABLE_LINKER__array_Debug CMakeFiles/array.dir/Chapter4/Source/数组.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/array.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = array
+  TARGET_PDB = array.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target getline
+
+
+#############################################
+# Order-only phony target for getline
+
+build cmake_object_order_depends_target_getline: phony || CMakeFiles/getline.dir
+
+build CMakeFiles/getline.dir/Chapter4/Source/读取一行.cpp.o: CXX_COMPILER__getline_Debug /Users/momo/Desktop/CPP/Chapter4/Source/读取一行.cpp || cmake_object_order_depends_target_getline
+  DEP_FILE = CMakeFiles/getline.dir/Chapter4/Source/读取一行.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/getline.dir
+  OBJECT_FILE_DIR = CMakeFiles/getline.dir/Chapter4/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target getline
+
+
+#############################################
+# Link the executable getline
+
+build getline: CXX_EXECUTABLE_LINKER__getline_Debug CMakeFiles/getline.dir/Chapter4/Source/读取一行.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/getline.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = getline
+  TARGET_PDB = getline.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target mix_int_string
+
+
+#############################################
+# Order-only phony target for mix_int_string
+
+build cmake_object_order_depends_target_mix_int_string: phony || CMakeFiles/mix_int_string.dir
+
+build CMakeFiles/mix_int_string.dir/Chapter4/Source/混合输入数字和字符串导致的问题.cpp.o: CXX_COMPILER__mix_int_string_Debug /Users/momo/Desktop/CPP/Chapter4/Source/混合输入数字和字符串导致的问题.cpp || cmake_object_order_depends_target_mix_int_string
+  DEP_FILE = CMakeFiles/mix_int_string.dir/Chapter4/Source/混合输入数字和字符串导致的问题.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/mix_int_string.dir
+  OBJECT_FILE_DIR = CMakeFiles/mix_int_string.dir/Chapter4/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target mix_int_string
+
+
+#############################################
+# Link the executable mix_int_string
+
+build mix_int_string: CXX_EXECUTABLE_LINKER__mix_int_string_Debug CMakeFiles/mix_int_string.dir/Chapter4/Source/混合输入数字和字符串导致的问题.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/mix_int_string.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = mix_int_string
+  TARGET_PDB = mix_int_string.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target string
+
+
+#############################################
+# Order-only phony target for string
+
+build cmake_object_order_depends_target_string: phony || CMakeFiles/string.dir
+
+build CMakeFiles/string.dir/Chapter4/Source/string的使用.cpp.o: CXX_COMPILER__string_Debug /Users/momo/Desktop/CPP/Chapter4/Source/string的使用.cpp || cmake_object_order_depends_target_string
+  DEP_FILE = CMakeFiles/string.dir/Chapter4/Source/string的使用.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/string.dir
+  OBJECT_FILE_DIR = CMakeFiles/string.dir/Chapter4/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target string
+
+
+#############################################
+# Link the executable string
+
+build string: CXX_EXECUTABLE_LINKER__string_Debug CMakeFiles/string.dir/Chapter4/Source/string的使用.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/string.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = string
+  TARGET_PDB = string.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Raw
+
+
+#############################################
+# Order-only phony target for Raw
+
+build cmake_object_order_depends_target_Raw: phony || CMakeFiles/Raw.dir
+
+build CMakeFiles/Raw.dir/Chapter4/Source/原生字符串.cpp.o: CXX_COMPILER__Raw_Debug /Users/momo/Desktop/CPP/Chapter4/Source/原生字符串.cpp || cmake_object_order_depends_target_Raw
+  DEP_FILE = CMakeFiles/Raw.dir/Chapter4/Source/原生字符串.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/Raw.dir
+  OBJECT_FILE_DIR = CMakeFiles/Raw.dir/Chapter4/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Raw
+
+
+#############################################
+# Link the executable Raw
+
+build Raw: CXX_EXECUTABLE_LINKER__Raw_Debug CMakeFiles/Raw.dir/Chapter4/Source/原生字符串.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/Raw.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Raw
+  TARGET_PDB = Raw.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target struct
+
+
+#############################################
+# Order-only phony target for struct
+
+build cmake_object_order_depends_target_struct: phony || CMakeFiles/struct.dir
+
+build CMakeFiles/struct.dir/Chapter4/Source/结构.cpp.o: CXX_COMPILER__struct_Debug /Users/momo/Desktop/CPP/Chapter4/Source/结构.cpp || cmake_object_order_depends_target_struct
+  DEP_FILE = CMakeFiles/struct.dir/Chapter4/Source/结构.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/struct.dir
+  OBJECT_FILE_DIR = CMakeFiles/struct.dir/Chapter4/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target struct
+
+
+#############################################
+# Link the executable struct
+
+build struct: CXX_EXECUTABLE_LINKER__struct_Debug CMakeFiles/struct.dir/Chapter4/Source/结构.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/struct.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = struct
+  TARGET_PDB = struct.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bitField
+
+
+#############################################
+# Order-only phony target for bitField
+
+build cmake_object_order_depends_target_bitField: phony || CMakeFiles/bitField.dir
+
+build CMakeFiles/bitField.dir/Chapter4/Source/位字段.cpp.o: CXX_COMPILER__bitField_Debug /Users/momo/Desktop/CPP/Chapter4/Source/位字段.cpp || cmake_object_order_depends_target_bitField
+  DEP_FILE = CMakeFiles/bitField.dir/Chapter4/Source/位字段.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/bitField.dir
+  OBJECT_FILE_DIR = CMakeFiles/bitField.dir/Chapter4/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bitField
+
+
+#############################################
+# Link the executable bitField
+
+build bitField: CXX_EXECUTABLE_LINKER__bitField_Debug CMakeFiles/bitField.dir/Chapter4/Source/位字段.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/bitField.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bitField
+  TARGET_PDB = bitField.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target enum
+
+
+#############################################
+# Order-only phony target for enum
+
+build cmake_object_order_depends_target_enum: phony || CMakeFiles/enum.dir
+
+build CMakeFiles/enum.dir/Chapter4/Source/枚举.cpp.o: CXX_COMPILER__enum_Debug /Users/momo/Desktop/CPP/Chapter4/Source/枚举.cpp || cmake_object_order_depends_target_enum
+  DEP_FILE = CMakeFiles/enum.dir/Chapter4/Source/枚举.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/enum.dir
+  OBJECT_FILE_DIR = CMakeFiles/enum.dir/Chapter4/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target enum
+
+
+#############################################
+# Link the executable enum
+
+build enum: CXX_EXECUTABLE_LINKER__enum_Debug CMakeFiles/enum.dir/Chapter4/Source/枚举.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/enum.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = enum
+  TARGET_PDB = enum.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target new
+
+
+#############################################
+# Order-only phony target for new
+
+build cmake_object_order_depends_target_new: phony || CMakeFiles/new.dir
+
+build CMakeFiles/new.dir/Chapter4/Source/new分配内存.cpp.o: CXX_COMPILER__new_Debug /Users/momo/Desktop/CPP/Chapter4/Source/new分配内存.cpp || cmake_object_order_depends_target_new
+  DEP_FILE = CMakeFiles/new.dir/Chapter4/Source/new分配内存.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/new.dir
+  OBJECT_FILE_DIR = CMakeFiles/new.dir/Chapter4/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target new
+
+
+#############################################
+# Link the executable new
+
+build new: CXX_EXECUTABLE_LINKER__new_Debug CMakeFiles/new.dir/Chapter4/Source/new分配内存.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/new.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = new
+  TARGET_PDB = new.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target newArray
+
+
+#############################################
+# Order-only phony target for newArray
+
+build cmake_object_order_depends_target_newArray: phony || CMakeFiles/newArray.dir
+
+build CMakeFiles/newArray.dir/Chapter4/Source/new创建动态数组.cpp.o: CXX_COMPILER__newArray_Debug /Users/momo/Desktop/CPP/Chapter4/Source/new创建动态数组.cpp || cmake_object_order_depends_target_newArray
+  DEP_FILE = CMakeFiles/newArray.dir/Chapter4/Source/new创建动态数组.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/newArray.dir
+  OBJECT_FILE_DIR = CMakeFiles/newArray.dir/Chapter4/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target newArray
+
+
+#############################################
+# Link the executable newArray
+
+build newArray: CXX_EXECUTABLE_LINKER__newArray_Debug CMakeFiles/newArray.dir/Chapter4/Source/new创建动态数组.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/newArray.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = newArray
+  TARGET_PDB = newArray.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target pointerArr
+
+
+#############################################
+# Order-only phony target for pointerArr
+
+build cmake_object_order_depends_target_pointerArr: phony || CMakeFiles/pointerArr.dir
+
+build CMakeFiles/pointerArr.dir/Chapter4/Source/指针数组.cpp.o: CXX_COMPILER__pointerArr_Debug /Users/momo/Desktop/CPP/Chapter4/Source/指针数组.cpp || cmake_object_order_depends_target_pointerArr
+  DEP_FILE = CMakeFiles/pointerArr.dir/Chapter4/Source/指针数组.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/pointerArr.dir
+  OBJECT_FILE_DIR = CMakeFiles/pointerArr.dir/Chapter4/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pointerArr
+
+
+#############################################
+# Link the executable pointerArr
+
+build pointerArr: CXX_EXECUTABLE_LINKER__pointerArr_Debug CMakeFiles/pointerArr.dir/Chapter4/Source/指针数组.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/pointerArr.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = pointerArr
+  TARGET_PDB = pointerArr.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target vector
+
+
+#############################################
+# Order-only phony target for vector
+
+build cmake_object_order_depends_target_vector: phony || CMakeFiles/vector.dir
+
+build CMakeFiles/vector.dir/Chapter4/Source/vector模版.cpp.o: CXX_COMPILER__vector_Debug /Users/momo/Desktop/CPP/Chapter4/Source/vector模版.cpp || cmake_object_order_depends_target_vector
+  DEP_FILE = CMakeFiles/vector.dir/Chapter4/Source/vector模版.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/vector.dir
+  OBJECT_FILE_DIR = CMakeFiles/vector.dir/Chapter4/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target vector
+
+
+#############################################
+# Link the executable vector
+
+build vector: CXX_EXECUTABLE_LINKER__vector_Debug CMakeFiles/vector.dir/Chapter4/Source/vector模版.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/vector.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = vector
+  TARGET_PDB = vector.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target arrayTemple
+
+
+#############################################
+# Order-only phony target for arrayTemple
+
+build cmake_object_order_depends_target_arrayTemple: phony || CMakeFiles/arrayTemple.dir
+
+build CMakeFiles/arrayTemple.dir/Chapter4/Source/array.cpp.o: CXX_COMPILER__arrayTemple_Debug /Users/momo/Desktop/CPP/Chapter4/Source/array.cpp || cmake_object_order_depends_target_arrayTemple
+  DEP_FILE = CMakeFiles/arrayTemple.dir/Chapter4/Source/array.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/arrayTemple.dir
+  OBJECT_FILE_DIR = CMakeFiles/arrayTemple.dir/Chapter4/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target arrayTemple
+
+
+#############################################
+# Link the executable arrayTemple
+
+build arrayTemple: CXX_EXECUTABLE_LINKER__arrayTemple_Debug CMakeFiles/arrayTemple.dir/Chapter4/Source/array.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/arrayTemple.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = arrayTemple
+  TARGET_PDB = arrayTemple.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -198,7 +694,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/momo/Desktop/CPP/cmake-build-debug
 
-build all: phony myfirstcpp limit number_system morechar
+build all: phony myfirstcpp limit number_system morechar flimit enforce_transform autoVar array getline mix_int_string string Raw struct bitField enum new newArray pointerArr vector arrayTemple
 
 # =============================================================================
 # Built-in targets
