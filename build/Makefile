@@ -337,6 +337,110 @@ newArray/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/newArray.dir/build.make CMakeFiles/newArray.dir/build
 .PHONY : newArray/fast
 
+#=============================================================================
+# Target rules for targets named pointerArr
+
+# Build rule for target.
+pointerArr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pointerArr
+.PHONY : pointerArr
+
+# fast build rule for target.
+pointerArr/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointerArr.dir/build.make CMakeFiles/pointerArr.dir/build
+.PHONY : pointerArr/fast
+
+#=============================================================================
+# Target rules for targets named vector
+
+# Build rule for target.
+vector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vector
+.PHONY : vector
+
+# fast build rule for target.
+vector/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/build
+.PHONY : vector/fast
+
+#=============================================================================
+# Target rules for targets named arrayTemple
+
+# Build rule for target.
+arrayTemple: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arrayTemple
+.PHONY : arrayTemple
+
+# fast build rule for target.
+arrayTemple/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrayTemple.dir/build.make CMakeFiles/arrayTemple.dir/build
+.PHONY : arrayTemple/fast
+
+#=============================================================================
+# Target rules for targets named express
+
+# Build rule for target.
+express: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 express
+.PHONY : express
+
+# fast build rule for target.
+express/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/express.dir/build.make CMakeFiles/express.dir/build
+.PHONY : express/fast
+
+#=============================================================================
+# Target rules for targets named op_and_pointer
+
+# Build rule for target.
+op_and_pointer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 op_and_pointer
+.PHONY : op_and_pointer
+
+# fast build rule for target.
+op_and_pointer/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/op_and_pointer.dir/build.make CMakeFiles/op_and_pointer.dir/build
+.PHONY : op_and_pointer/fast
+
+#=============================================================================
+# Target rules for targets named comma_expression
+
+# Build rule for target.
+comma_expression: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 comma_expression
+.PHONY : comma_expression
+
+# fast build rule for target.
+comma_expression/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comma_expression.dir/build.make CMakeFiles/comma_expression.dir/build
+.PHONY : comma_expression/fast
+
+#=============================================================================
+# Target rules for targets named stringCompare
+
+# Build rule for target.
+stringCompare: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stringCompare
+.PHONY : stringCompare
+
+# fast build rule for target.
+stringCompare/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stringCompare.dir/build.make CMakeFiles/stringCompare.dir/build
+.PHONY : stringCompare/fast
+
+#=============================================================================
+# Target rules for targets named time
+
+# Build rule for target.
+time: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 time
+.PHONY : time
+
+# fast build rule for target.
+time/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/time.dir/build.make CMakeFiles/time.dir/build
+.PHONY : time/fast
+
 Chapter2/Source/helloworld.o: Chapter2/Source/helloworld.cpp.o
 .PHONY : Chapter2/Source/helloworld.o
 
@@ -505,6 +609,30 @@ Chapter3/Source/浮点数的限制.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/flimit.dir/build.make CMakeFiles/flimit.dir/Chapter3/Source/浮点数的限制.cpp.s
 .PHONY : Chapter3/Source/浮点数的限制.cpp.s
 
+Chapter4/Source/array.o: Chapter4/Source/array.cpp.o
+.PHONY : Chapter4/Source/array.o
+
+# target to build an object file
+Chapter4/Source/array.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrayTemple.dir/build.make CMakeFiles/arrayTemple.dir/Chapter4/Source/array.cpp.o
+.PHONY : Chapter4/Source/array.cpp.o
+
+Chapter4/Source/array.i: Chapter4/Source/array.cpp.i
+.PHONY : Chapter4/Source/array.i
+
+# target to preprocess a source file
+Chapter4/Source/array.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrayTemple.dir/build.make CMakeFiles/arrayTemple.dir/Chapter4/Source/array.cpp.i
+.PHONY : Chapter4/Source/array.cpp.i
+
+Chapter4/Source/array.s: Chapter4/Source/array.cpp.s
+.PHONY : Chapter4/Source/array.s
+
+# target to generate assembly for a file
+Chapter4/Source/array.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrayTemple.dir/build.make CMakeFiles/arrayTemple.dir/Chapter4/Source/array.cpp.s
+.PHONY : Chapter4/Source/array.cpp.s
+
 Chapter4/Source/new分配内存.o: Chapter4/Source/new分配内存.cpp.o
 .PHONY : Chapter4/Source/new分配内存.o
 
@@ -577,6 +705,30 @@ Chapter4/Source/string的使用.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/Chapter4/Source/string的使用.cpp.s
 .PHONY : Chapter4/Source/string的使用.cpp.s
 
+Chapter4/Source/vector模版.o: Chapter4/Source/vector模版.cpp.o
+.PHONY : Chapter4/Source/vector模版.o
+
+# target to build an object file
+Chapter4/Source/vector模版.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/Chapter4/Source/vector模版.cpp.o
+.PHONY : Chapter4/Source/vector模版.cpp.o
+
+Chapter4/Source/vector模版.i: Chapter4/Source/vector模版.cpp.i
+.PHONY : Chapter4/Source/vector模版.i
+
+# target to preprocess a source file
+Chapter4/Source/vector模版.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/Chapter4/Source/vector模版.cpp.i
+.PHONY : Chapter4/Source/vector模版.cpp.i
+
+Chapter4/Source/vector模版.s: Chapter4/Source/vector模版.cpp.s
+.PHONY : Chapter4/Source/vector模版.s
+
+# target to generate assembly for a file
+Chapter4/Source/vector模版.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/Chapter4/Source/vector模版.cpp.s
+.PHONY : Chapter4/Source/vector模版.cpp.s
+
 Chapter4/Source/位字段.o: Chapter4/Source/位字段.cpp.o
 .PHONY : Chapter4/Source/位字段.o
 
@@ -624,6 +776,30 @@ Chapter4/Source/原生字符串.s: Chapter4/Source/原生字符串.cpp.s
 Chapter4/Source/原生字符串.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Raw.dir/build.make CMakeFiles/Raw.dir/Chapter4/Source/原生字符串.cpp.s
 .PHONY : Chapter4/Source/原生字符串.cpp.s
+
+Chapter4/Source/指针数组.o: Chapter4/Source/指针数组.cpp.o
+.PHONY : Chapter4/Source/指针数组.o
+
+# target to build an object file
+Chapter4/Source/指针数组.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointerArr.dir/build.make CMakeFiles/pointerArr.dir/Chapter4/Source/指针数组.cpp.o
+.PHONY : Chapter4/Source/指针数组.cpp.o
+
+Chapter4/Source/指针数组.i: Chapter4/Source/指针数组.cpp.i
+.PHONY : Chapter4/Source/指针数组.i
+
+# target to preprocess a source file
+Chapter4/Source/指针数组.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointerArr.dir/build.make CMakeFiles/pointerArr.dir/Chapter4/Source/指针数组.cpp.i
+.PHONY : Chapter4/Source/指针数组.cpp.i
+
+Chapter4/Source/指针数组.s: Chapter4/Source/指针数组.cpp.s
+.PHONY : Chapter4/Source/指针数组.s
+
+# target to generate assembly for a file
+Chapter4/Source/指针数组.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointerArr.dir/build.make CMakeFiles/pointerArr.dir/Chapter4/Source/指针数组.cpp.s
+.PHONY : Chapter4/Source/指针数组.cpp.s
 
 Chapter4/Source/数组.o: Chapter4/Source/数组.cpp.o
 .PHONY : Chapter4/Source/数组.o
@@ -745,6 +921,126 @@ Chapter4/Source/读取一行.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/getline.dir/build.make CMakeFiles/getline.dir/Chapter4/Source/读取一行.cpp.s
 .PHONY : Chapter4/Source/读取一行.cpp.s
 
+Chapter5/Source/字符串比较的不同.o: Chapter5/Source/字符串比较的不同.cpp.o
+.PHONY : Chapter5/Source/字符串比较的不同.o
+
+# target to build an object file
+Chapter5/Source/字符串比较的不同.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stringCompare.dir/build.make CMakeFiles/stringCompare.dir/Chapter5/Source/字符串比较的不同.cpp.o
+.PHONY : Chapter5/Source/字符串比较的不同.cpp.o
+
+Chapter5/Source/字符串比较的不同.i: Chapter5/Source/字符串比较的不同.cpp.i
+.PHONY : Chapter5/Source/字符串比较的不同.i
+
+# target to preprocess a source file
+Chapter5/Source/字符串比较的不同.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stringCompare.dir/build.make CMakeFiles/stringCompare.dir/Chapter5/Source/字符串比较的不同.cpp.i
+.PHONY : Chapter5/Source/字符串比较的不同.cpp.i
+
+Chapter5/Source/字符串比较的不同.s: Chapter5/Source/字符串比较的不同.cpp.s
+.PHONY : Chapter5/Source/字符串比较的不同.s
+
+# target to generate assembly for a file
+Chapter5/Source/字符串比较的不同.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stringCompare.dir/build.make CMakeFiles/stringCompare.dir/Chapter5/Source/字符串比较的不同.cpp.s
+.PHONY : Chapter5/Source/字符串比较的不同.cpp.s
+
+Chapter5/Source/时间单位的使用.o: Chapter5/Source/时间单位的使用.cpp.o
+.PHONY : Chapter5/Source/时间单位的使用.o
+
+# target to build an object file
+Chapter5/Source/时间单位的使用.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/time.dir/build.make CMakeFiles/time.dir/Chapter5/Source/时间单位的使用.cpp.o
+.PHONY : Chapter5/Source/时间单位的使用.cpp.o
+
+Chapter5/Source/时间单位的使用.i: Chapter5/Source/时间单位的使用.cpp.i
+.PHONY : Chapter5/Source/时间单位的使用.i
+
+# target to preprocess a source file
+Chapter5/Source/时间单位的使用.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/time.dir/build.make CMakeFiles/time.dir/Chapter5/Source/时间单位的使用.cpp.i
+.PHONY : Chapter5/Source/时间单位的使用.cpp.i
+
+Chapter5/Source/时间单位的使用.s: Chapter5/Source/时间单位的使用.cpp.s
+.PHONY : Chapter5/Source/时间单位的使用.s
+
+# target to generate assembly for a file
+Chapter5/Source/时间单位的使用.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/time.dir/build.make CMakeFiles/time.dir/Chapter5/Source/时间单位的使用.cpp.s
+.PHONY : Chapter5/Source/时间单位的使用.cpp.s
+
+Chapter5/Source/表达式和语句.o: Chapter5/Source/表达式和语句.cpp.o
+.PHONY : Chapter5/Source/表达式和语句.o
+
+# target to build an object file
+Chapter5/Source/表达式和语句.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/express.dir/build.make CMakeFiles/express.dir/Chapter5/Source/表达式和语句.cpp.o
+.PHONY : Chapter5/Source/表达式和语句.cpp.o
+
+Chapter5/Source/表达式和语句.i: Chapter5/Source/表达式和语句.cpp.i
+.PHONY : Chapter5/Source/表达式和语句.i
+
+# target to preprocess a source file
+Chapter5/Source/表达式和语句.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/express.dir/build.make CMakeFiles/express.dir/Chapter5/Source/表达式和语句.cpp.i
+.PHONY : Chapter5/Source/表达式和语句.cpp.i
+
+Chapter5/Source/表达式和语句.s: Chapter5/Source/表达式和语句.cpp.s
+.PHONY : Chapter5/Source/表达式和语句.s
+
+# target to generate assembly for a file
+Chapter5/Source/表达式和语句.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/express.dir/build.make CMakeFiles/express.dir/Chapter5/Source/表达式和语句.cpp.s
+.PHONY : Chapter5/Source/表达式和语句.cpp.s
+
+Chapter5/Source/运算符和指针.o: Chapter5/Source/运算符和指针.cpp.o
+.PHONY : Chapter5/Source/运算符和指针.o
+
+# target to build an object file
+Chapter5/Source/运算符和指针.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/op_and_pointer.dir/build.make CMakeFiles/op_and_pointer.dir/Chapter5/Source/运算符和指针.cpp.o
+.PHONY : Chapter5/Source/运算符和指针.cpp.o
+
+Chapter5/Source/运算符和指针.i: Chapter5/Source/运算符和指针.cpp.i
+.PHONY : Chapter5/Source/运算符和指针.i
+
+# target to preprocess a source file
+Chapter5/Source/运算符和指针.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/op_and_pointer.dir/build.make CMakeFiles/op_and_pointer.dir/Chapter5/Source/运算符和指针.cpp.i
+.PHONY : Chapter5/Source/运算符和指针.cpp.i
+
+Chapter5/Source/运算符和指针.s: Chapter5/Source/运算符和指针.cpp.s
+.PHONY : Chapter5/Source/运算符和指针.s
+
+# target to generate assembly for a file
+Chapter5/Source/运算符和指针.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/op_and_pointer.dir/build.make CMakeFiles/op_and_pointer.dir/Chapter5/Source/运算符和指针.cpp.s
+.PHONY : Chapter5/Source/运算符和指针.cpp.s
+
+Chapter5/Source/逗号表达式.o: Chapter5/Source/逗号表达式.cpp.o
+.PHONY : Chapter5/Source/逗号表达式.o
+
+# target to build an object file
+Chapter5/Source/逗号表达式.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comma_expression.dir/build.make CMakeFiles/comma_expression.dir/Chapter5/Source/逗号表达式.cpp.o
+.PHONY : Chapter5/Source/逗号表达式.cpp.o
+
+Chapter5/Source/逗号表达式.i: Chapter5/Source/逗号表达式.cpp.i
+.PHONY : Chapter5/Source/逗号表达式.i
+
+# target to preprocess a source file
+Chapter5/Source/逗号表达式.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comma_expression.dir/build.make CMakeFiles/comma_expression.dir/Chapter5/Source/逗号表达式.cpp.i
+.PHONY : Chapter5/Source/逗号表达式.cpp.i
+
+Chapter5/Source/逗号表达式.s: Chapter5/Source/逗号表达式.cpp.s
+.PHONY : Chapter5/Source/逗号表达式.s
+
+# target to generate assembly for a file
+Chapter5/Source/逗号表达式.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/comma_expression.dir/build.make CMakeFiles/comma_expression.dir/Chapter5/Source/逗号表达式.cpp.s
+.PHONY : Chapter5/Source/逗号表达式.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -755,10 +1051,13 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Raw"
 	@echo "... array"
+	@echo "... arrayTemple"
 	@echo "... autoVar"
 	@echo "... bitField"
+	@echo "... comma_expression"
 	@echo "... enforce_transform"
 	@echo "... enum"
+	@echo "... express"
 	@echo "... flimit"
 	@echo "... getline"
 	@echo "... limit"
@@ -768,8 +1067,13 @@ help:
 	@echo "... new"
 	@echo "... newArray"
 	@echo "... number_system"
+	@echo "... op_and_pointer"
+	@echo "... pointerArr"
 	@echo "... string"
+	@echo "... stringCompare"
 	@echo "... struct"
+	@echo "... time"
+	@echo "... vector"
 	@echo "... Chapter2/Source/helloworld.o"
 	@echo "... Chapter2/Source/helloworld.i"
 	@echo "... Chapter2/Source/helloworld.s"
@@ -791,6 +1095,9 @@ help:
 	@echo "... Chapter3/Source/浮点数的限制.o"
 	@echo "... Chapter3/Source/浮点数的限制.i"
 	@echo "... Chapter3/Source/浮点数的限制.s"
+	@echo "... Chapter4/Source/array.o"
+	@echo "... Chapter4/Source/array.i"
+	@echo "... Chapter4/Source/array.s"
 	@echo "... Chapter4/Source/new分配内存.o"
 	@echo "... Chapter4/Source/new分配内存.i"
 	@echo "... Chapter4/Source/new分配内存.s"
@@ -800,12 +1107,18 @@ help:
 	@echo "... Chapter4/Source/string的使用.o"
 	@echo "... Chapter4/Source/string的使用.i"
 	@echo "... Chapter4/Source/string的使用.s"
+	@echo "... Chapter4/Source/vector模版.o"
+	@echo "... Chapter4/Source/vector模版.i"
+	@echo "... Chapter4/Source/vector模版.s"
 	@echo "... Chapter4/Source/位字段.o"
 	@echo "... Chapter4/Source/位字段.i"
 	@echo "... Chapter4/Source/位字段.s"
 	@echo "... Chapter4/Source/原生字符串.o"
 	@echo "... Chapter4/Source/原生字符串.i"
 	@echo "... Chapter4/Source/原生字符串.s"
+	@echo "... Chapter4/Source/指针数组.o"
+	@echo "... Chapter4/Source/指针数组.i"
+	@echo "... Chapter4/Source/指针数组.s"
 	@echo "... Chapter4/Source/数组.o"
 	@echo "... Chapter4/Source/数组.i"
 	@echo "... Chapter4/Source/数组.s"
@@ -821,6 +1134,21 @@ help:
 	@echo "... Chapter4/Source/读取一行.o"
 	@echo "... Chapter4/Source/读取一行.i"
 	@echo "... Chapter4/Source/读取一行.s"
+	@echo "... Chapter5/Source/字符串比较的不同.o"
+	@echo "... Chapter5/Source/字符串比较的不同.i"
+	@echo "... Chapter5/Source/字符串比较的不同.s"
+	@echo "... Chapter5/Source/时间单位的使用.o"
+	@echo "... Chapter5/Source/时间单位的使用.i"
+	@echo "... Chapter5/Source/时间单位的使用.s"
+	@echo "... Chapter5/Source/表达式和语句.o"
+	@echo "... Chapter5/Source/表达式和语句.i"
+	@echo "... Chapter5/Source/表达式和语句.s"
+	@echo "... Chapter5/Source/运算符和指针.o"
+	@echo "... Chapter5/Source/运算符和指针.i"
+	@echo "... Chapter5/Source/运算符和指针.s"
+	@echo "... Chapter5/Source/逗号表达式.o"
+	@echo "... Chapter5/Source/逗号表达式.i"
+	@echo "... Chapter5/Source/逗号表达式.s"
 .PHONY : help
 
 

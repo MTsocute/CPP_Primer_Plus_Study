@@ -36,6 +36,16 @@ void get_char_num_of_string() {
     cout << "Character number of gellory is: " << len << endl;
 }
 
+
+// C++特有的字符串遍历方法
+void iter_CPP_string() {
+    string beautiful = "My life is brilliant and my life is pure.";
+
+    for (int i = 0; i < beautiful.size()-1; ++i) {
+        cout << beautiful[i] << endl;
+    }
+}
+
 int main() {
     get_char_num_of_string();
     return 0;

@@ -30,3 +30,13 @@ add_executable(newArray Chapter4/Source/new创建动态数组.cpp)
 add_executable(pointerArr Chapter4/Source/指针数组.cpp)
 add_executable(vector Chapter4/Source/vector模版.cpp)
 add_executable(arrayTemple Chapter4/Source/array.cpp)
+
+# 第五章
+add_executable(express Chapter5/Source/表达式和语句.cpp)
+add_executable(op_and_pointer Chapter5/Source/运算符和指针.cpp)
+add_executable(comma_expression Chapter5/Source/逗号表达式.cpp)
+add_executable(stringCompare Chapter5/Source/字符串比较的不同.cpp)
+add_executable(time Chapter5/Source/时间单位的使用.cpp)
+add_executable(foreachCPP11 Chapter5/Source/基于范围的for循环.cpp)
+add_executable(while_and_string Chapter5/Source/单个字符循环读取.cpp)
+add_executable(two_dimensional_arr Chapter5/Source/2D_array.cpp)

@@ -660,6 +660,254 @@ build arrayTemple: CXX_EXECUTABLE_LINKER__arrayTemple_Debug CMakeFiles/arrayTemp
   TARGET_FILE = arrayTemple
   TARGET_PDB = arrayTemple.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target express
+
+
+#############################################
+# Order-only phony target for express
+
+build cmake_object_order_depends_target_express: phony || CMakeFiles/express.dir
+
+build CMakeFiles/express.dir/Chapter5/Source/表达式和语句.cpp.o: CXX_COMPILER__express_Debug /Users/momo/Desktop/CPP/Chapter5/Source/表达式和语句.cpp || cmake_object_order_depends_target_express
+  DEP_FILE = CMakeFiles/express.dir/Chapter5/Source/表达式和语句.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/express.dir
+  OBJECT_FILE_DIR = CMakeFiles/express.dir/Chapter5/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target express
+
+
+#############################################
+# Link the executable express
+
+build express: CXX_EXECUTABLE_LINKER__express_Debug CMakeFiles/express.dir/Chapter5/Source/表达式和语句.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/express.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = express
+  TARGET_PDB = express.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target op_and_pointer
+
+
+#############################################
+# Order-only phony target for op_and_pointer
+
+build cmake_object_order_depends_target_op_and_pointer: phony || CMakeFiles/op_and_pointer.dir
+
+build CMakeFiles/op_and_pointer.dir/Chapter5/Source/运算符和指针.cpp.o: CXX_COMPILER__op_and_pointer_Debug /Users/momo/Desktop/CPP/Chapter5/Source/运算符和指针.cpp || cmake_object_order_depends_target_op_and_pointer
+  DEP_FILE = CMakeFiles/op_and_pointer.dir/Chapter5/Source/运算符和指针.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/op_and_pointer.dir
+  OBJECT_FILE_DIR = CMakeFiles/op_and_pointer.dir/Chapter5/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target op_and_pointer
+
+
+#############################################
+# Link the executable op_and_pointer
+
+build op_and_pointer: CXX_EXECUTABLE_LINKER__op_and_pointer_Debug CMakeFiles/op_and_pointer.dir/Chapter5/Source/运算符和指针.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/op_and_pointer.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = op_and_pointer
+  TARGET_PDB = op_and_pointer.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target comma_expression
+
+
+#############################################
+# Order-only phony target for comma_expression
+
+build cmake_object_order_depends_target_comma_expression: phony || CMakeFiles/comma_expression.dir
+
+build CMakeFiles/comma_expression.dir/Chapter5/Source/逗号表达式.cpp.o: CXX_COMPILER__comma_expression_Debug /Users/momo/Desktop/CPP/Chapter5/Source/逗号表达式.cpp || cmake_object_order_depends_target_comma_expression
+  DEP_FILE = CMakeFiles/comma_expression.dir/Chapter5/Source/逗号表达式.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/comma_expression.dir
+  OBJECT_FILE_DIR = CMakeFiles/comma_expression.dir/Chapter5/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target comma_expression
+
+
+#############################################
+# Link the executable comma_expression
+
+build comma_expression: CXX_EXECUTABLE_LINKER__comma_expression_Debug CMakeFiles/comma_expression.dir/Chapter5/Source/逗号表达式.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/comma_expression.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = comma_expression
+  TARGET_PDB = comma_expression.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target stringCompare
+
+
+#############################################
+# Order-only phony target for stringCompare
+
+build cmake_object_order_depends_target_stringCompare: phony || CMakeFiles/stringCompare.dir
+
+build CMakeFiles/stringCompare.dir/Chapter5/Source/字符串比较的不同.cpp.o: CXX_COMPILER__stringCompare_Debug /Users/momo/Desktop/CPP/Chapter5/Source/字符串比较的不同.cpp || cmake_object_order_depends_target_stringCompare
+  DEP_FILE = CMakeFiles/stringCompare.dir/Chapter5/Source/字符串比较的不同.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/stringCompare.dir
+  OBJECT_FILE_DIR = CMakeFiles/stringCompare.dir/Chapter5/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target stringCompare
+
+
+#############################################
+# Link the executable stringCompare
+
+build stringCompare: CXX_EXECUTABLE_LINKER__stringCompare_Debug CMakeFiles/stringCompare.dir/Chapter5/Source/字符串比较的不同.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/stringCompare.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = stringCompare
+  TARGET_PDB = stringCompare.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target time
+
+
+#############################################
+# Order-only phony target for time
+
+build cmake_object_order_depends_target_time: phony || CMakeFiles/time.dir
+
+build CMakeFiles/time.dir/Chapter5/Source/时间单位的使用.cpp.o: CXX_COMPILER__time_Debug /Users/momo/Desktop/CPP/Chapter5/Source/时间单位的使用.cpp || cmake_object_order_depends_target_time
+  DEP_FILE = CMakeFiles/time.dir/Chapter5/Source/时间单位的使用.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/time.dir
+  OBJECT_FILE_DIR = CMakeFiles/time.dir/Chapter5/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target time
+
+
+#############################################
+# Link the executable time
+
+build time: CXX_EXECUTABLE_LINKER__time_Debug CMakeFiles/time.dir/Chapter5/Source/时间单位的使用.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/time.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = time
+  TARGET_PDB = time.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target foreachCPP11
+
+
+#############################################
+# Order-only phony target for foreachCPP11
+
+build cmake_object_order_depends_target_foreachCPP11: phony || CMakeFiles/foreachCPP11.dir
+
+build CMakeFiles/foreachCPP11.dir/Chapter5/Source/基于范围的for循环.cpp.o: CXX_COMPILER__foreachCPP11_Debug /Users/momo/Desktop/CPP/Chapter5/Source/基于范围的for循环.cpp || cmake_object_order_depends_target_foreachCPP11
+  DEP_FILE = CMakeFiles/foreachCPP11.dir/Chapter5/Source/基于范围的for循环.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/foreachCPP11.dir
+  OBJECT_FILE_DIR = CMakeFiles/foreachCPP11.dir/Chapter5/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target foreachCPP11
+
+
+#############################################
+# Link the executable foreachCPP11
+
+build foreachCPP11: CXX_EXECUTABLE_LINKER__foreachCPP11_Debug CMakeFiles/foreachCPP11.dir/Chapter5/Source/基于范围的for循环.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/foreachCPP11.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = foreachCPP11
+  TARGET_PDB = foreachCPP11.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target while_and_string
+
+
+#############################################
+# Order-only phony target for while_and_string
+
+build cmake_object_order_depends_target_while_and_string: phony || CMakeFiles/while_and_string.dir
+
+build CMakeFiles/while_and_string.dir/Chapter5/Source/单个字符循环读取.cpp.o: CXX_COMPILER__while_and_string_Debug /Users/momo/Desktop/CPP/Chapter5/Source/单个字符循环读取.cpp || cmake_object_order_depends_target_while_and_string
+  DEP_FILE = CMakeFiles/while_and_string.dir/Chapter5/Source/单个字符循环读取.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/while_and_string.dir
+  OBJECT_FILE_DIR = CMakeFiles/while_and_string.dir/Chapter5/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target while_and_string
+
+
+#############################################
+# Link the executable while_and_string
+
+build while_and_string: CXX_EXECUTABLE_LINKER__while_and_string_Debug CMakeFiles/while_and_string.dir/Chapter5/Source/单个字符循环读取.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/while_and_string.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = while_and_string
+  TARGET_PDB = while_and_string.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target two_dimensional_arr
+
+
+#############################################
+# Order-only phony target for two_dimensional_arr
+
+build cmake_object_order_depends_target_two_dimensional_arr: phony || CMakeFiles/two_dimensional_arr.dir
+
+build CMakeFiles/two_dimensional_arr.dir/Chapter5/Source/2D_array.cpp.o: CXX_COMPILER__two_dimensional_arr_Debug /Users/momo/Desktop/CPP/Chapter5/Source/2D_array.cpp || cmake_object_order_depends_target_two_dimensional_arr
+  DEP_FILE = CMakeFiles/two_dimensional_arr.dir/Chapter5/Source/2D_array.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/two_dimensional_arr.dir
+  OBJECT_FILE_DIR = CMakeFiles/two_dimensional_arr.dir/Chapter5/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target two_dimensional_arr
+
+
+#############################################
+# Link the executable two_dimensional_arr
+
+build two_dimensional_arr: CXX_EXECUTABLE_LINKER__two_dimensional_arr_Debug CMakeFiles/two_dimensional_arr.dir/Chapter5/Source/2D_array.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/two_dimensional_arr.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = two_dimensional_arr
+  TARGET_PDB = two_dimensional_arr.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -694,7 +942,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/momo/Desktop/CPP/cmake-build-debug
 
-build all: phony myfirstcpp limit number_system morechar flimit enforce_transform autoVar array getline mix_int_string string Raw struct bitField enum new newArray pointerArr vector arrayTemple
+build all: phony myfirstcpp limit number_system morechar flimit enforce_transform autoVar array getline mix_int_string string Raw struct bitField enum new newArray pointerArr vector arrayTemple express op_and_pointer comma_expression stringCompare time foreachCPP11 while_and_string two_dimensional_arr
 
 # =============================================================================
 # Built-in targets

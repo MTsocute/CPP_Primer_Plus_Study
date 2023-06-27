@@ -6,7 +6,7 @@
 
 using namespace std;
 
-// getline 函数的使用
+// getline() 函数的使用
 void use_get_line() {
     char arr[20];
     cout << "Input a name plz: \n";
