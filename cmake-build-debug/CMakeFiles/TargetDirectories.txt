@@ -26,5 +26,10 @@
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/foreachCPP11.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/while_and_string.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/two_dimensional_arr.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/cctypeStringLibrary.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/switch_and_enum.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/deal_Error_Input.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/write_file.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/read_file.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -908,6 +908,161 @@ build two_dimensional_arr: CXX_EXECUTABLE_LINKER__two_dimensional_arr_Debug CMak
   TARGET_FILE = two_dimensional_arr
   TARGET_PDB = two_dimensional_arr.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target cctypeStringLibrary
+
+
+#############################################
+# Order-only phony target for cctypeStringLibrary
+
+build cmake_object_order_depends_target_cctypeStringLibrary: phony || CMakeFiles/cctypeStringLibrary.dir
+
+build CMakeFiles/cctypeStringLibrary.dir/Chapter6/Source/cctype字符串库.cpp.o: CXX_COMPILER__cctypeStringLibrary_Debug /Users/momo/Desktop/CPP/Chapter6/Source/cctype字符串库.cpp || cmake_object_order_depends_target_cctypeStringLibrary
+  DEP_FILE = CMakeFiles/cctypeStringLibrary.dir/Chapter6/Source/cctype字符串库.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/cctypeStringLibrary.dir
+  OBJECT_FILE_DIR = CMakeFiles/cctypeStringLibrary.dir/Chapter6/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cctypeStringLibrary
+
+
+#############################################
+# Link the executable cctypeStringLibrary
+
+build cctypeStringLibrary: CXX_EXECUTABLE_LINKER__cctypeStringLibrary_Debug CMakeFiles/cctypeStringLibrary.dir/Chapter6/Source/cctype字符串库.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/cctypeStringLibrary.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = cctypeStringLibrary
+  TARGET_PDB = cctypeStringLibrary.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target switch_and_enum
+
+
+#############################################
+# Order-only phony target for switch_and_enum
+
+build cmake_object_order_depends_target_switch_and_enum: phony || CMakeFiles/switch_and_enum.dir
+
+build CMakeFiles/switch_and_enum.dir/Chapter6/Source/switch和enum搭配.cpp.o: CXX_COMPILER__switch_and_enum_Debug /Users/momo/Desktop/CPP/Chapter6/Source/switch和enum搭配.cpp || cmake_object_order_depends_target_switch_and_enum
+  DEP_FILE = CMakeFiles/switch_and_enum.dir/Chapter6/Source/switch和enum搭配.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/switch_and_enum.dir
+  OBJECT_FILE_DIR = CMakeFiles/switch_and_enum.dir/Chapter6/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target switch_and_enum
+
+
+#############################################
+# Link the executable switch_and_enum
+
+build switch_and_enum: CXX_EXECUTABLE_LINKER__switch_and_enum_Debug CMakeFiles/switch_and_enum.dir/Chapter6/Source/switch和enum搭配.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/switch_and_enum.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = switch_and_enum
+  TARGET_PDB = switch_and_enum.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target deal_Error_Input
+
+
+#############################################
+# Order-only phony target for deal_Error_Input
+
+build cmake_object_order_depends_target_deal_Error_Input: phony || CMakeFiles/deal_Error_Input.dir
+
+build CMakeFiles/deal_Error_Input.dir/Chapter6/Source/处理错误输入.cpp.o: CXX_COMPILER__deal_Error_Input_Debug /Users/momo/Desktop/CPP/Chapter6/Source/处理错误输入.cpp || cmake_object_order_depends_target_deal_Error_Input
+  DEP_FILE = CMakeFiles/deal_Error_Input.dir/Chapter6/Source/处理错误输入.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/deal_Error_Input.dir
+  OBJECT_FILE_DIR = CMakeFiles/deal_Error_Input.dir/Chapter6/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target deal_Error_Input
+
+
+#############################################
+# Link the executable deal_Error_Input
+
+build deal_Error_Input: CXX_EXECUTABLE_LINKER__deal_Error_Input_Debug CMakeFiles/deal_Error_Input.dir/Chapter6/Source/处理错误输入.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/deal_Error_Input.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = deal_Error_Input
+  TARGET_PDB = deal_Error_Input.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target write_file
+
+
+#############################################
+# Order-only phony target for write_file
+
+build cmake_object_order_depends_target_write_file: phony || CMakeFiles/write_file.dir
+
+build CMakeFiles/write_file.dir/Chapter6/Source/写到文本文件中.cpp.o: CXX_COMPILER__write_file_Debug /Users/momo/Desktop/CPP/Chapter6/Source/写到文本文件中.cpp || cmake_object_order_depends_target_write_file
+  DEP_FILE = CMakeFiles/write_file.dir/Chapter6/Source/写到文本文件中.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/write_file.dir
+  OBJECT_FILE_DIR = CMakeFiles/write_file.dir/Chapter6/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target write_file
+
+
+#############################################
+# Link the executable write_file
+
+build write_file: CXX_EXECUTABLE_LINKER__write_file_Debug CMakeFiles/write_file.dir/Chapter6/Source/写到文本文件中.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/write_file.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = write_file
+  TARGET_PDB = write_file.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target read_file
+
+
+#############################################
+# Order-only phony target for read_file
+
+build cmake_object_order_depends_target_read_file: phony || CMakeFiles/read_file.dir
+
+build CMakeFiles/read_file.dir/Chapter6/Source/读取文本文件.cpp.o: CXX_COMPILER__read_file_Debug /Users/momo/Desktop/CPP/Chapter6/Source/读取文本文件.cpp || cmake_object_order_depends_target_read_file
+  DEP_FILE = CMakeFiles/read_file.dir/Chapter6/Source/读取文本文件.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/read_file.dir
+  OBJECT_FILE_DIR = CMakeFiles/read_file.dir/Chapter6/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target read_file
+
+
+#############################################
+# Link the executable read_file
+
+build read_file: CXX_EXECUTABLE_LINKER__read_file_Debug CMakeFiles/read_file.dir/Chapter6/Source/读取文本文件.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/read_file.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = read_file
+  TARGET_PDB = read_file.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -942,7 +1097,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/momo/Desktop/CPP/cmake-build-debug
 
-build all: phony myfirstcpp limit number_system morechar flimit enforce_transform autoVar array getline mix_int_string string Raw struct bitField enum new newArray pointerArr vector arrayTemple express op_and_pointer comma_expression stringCompare time foreachCPP11 while_and_string two_dimensional_arr
+build all: phony myfirstcpp limit number_system morechar flimit enforce_transform autoVar array getline mix_int_string string Raw struct bitField enum new newArray pointerArr vector arrayTemple express op_and_pointer comma_expression stringCompare time foreachCPP11 while_and_string two_dimensional_arr cctypeStringLibrary switch_and_enum deal_Error_Input write_file read_file
 
 # =============================================================================
 # Built-in targets
