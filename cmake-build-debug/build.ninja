@@ -1063,6 +1063,224 @@ build read_file: CXX_EXECUTABLE_LINKER__read_file_Debug CMakeFiles/read_file.dir
   TARGET_FILE = read_file
   TARGET_PDB = read_file.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target range_arr
+
+
+#############################################
+# Order-only phony target for range_arr
+
+build cmake_object_order_depends_target_range_arr: phony || CMakeFiles/range_arr.dir
+
+build CMakeFiles/range_arr.dir/Chapter7/Source/使用数组区间的函数.cpp.o: CXX_COMPILER__range_arr_Debug /Users/momo/Desktop/CPP/Chapter7/Source/使用数组区间的函数.cpp || cmake_object_order_depends_target_range_arr
+  DEP_FILE = CMakeFiles/range_arr.dir/Chapter7/Source/使用数组区间的函数.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/range_arr.dir
+  OBJECT_FILE_DIR = CMakeFiles/range_arr.dir/Chapter7/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target range_arr
+
+
+#############################################
+# Link the executable range_arr
+
+build range_arr: CXX_EXECUTABLE_LINKER__range_arr_Debug CMakeFiles/range_arr.dir/Chapter7/Source/使用数组区间的函数.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/range_arr.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = range_arr
+  TARGET_PDB = range_arr.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target func_and_2D_Array
+
+
+#############################################
+# Order-only phony target for func_and_2D_Array
+
+build cmake_object_order_depends_target_func_and_2D_Array: phony || CMakeFiles/func_and_2D_Array.dir
+
+build CMakeFiles/func_and_2D_Array.dir/Chapter7/Source/函数和二维数组.cpp.o: CXX_COMPILER__func_and_2D_Array_Debug /Users/momo/Desktop/CPP/Chapter7/Source/函数和二维数组.cpp || cmake_object_order_depends_target_func_and_2D_Array
+  DEP_FILE = CMakeFiles/func_and_2D_Array.dir/Chapter7/Source/函数和二维数组.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/func_and_2D_Array.dir
+  OBJECT_FILE_DIR = CMakeFiles/func_and_2D_Array.dir/Chapter7/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target func_and_2D_Array
+
+
+#############################################
+# Link the executable func_and_2D_Array
+
+build func_and_2D_Array: CXX_EXECUTABLE_LINKER__func_and_2D_Array_Debug CMakeFiles/func_and_2D_Array.dir/Chapter7/Source/函数和二维数组.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/func_and_2D_Array.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = func_and_2D_Array
+  TARGET_PDB = func_and_2D_Array.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target stringAsReturn
+
+
+#############################################
+# Order-only phony target for stringAsReturn
+
+build cmake_object_order_depends_target_stringAsReturn: phony || CMakeFiles/stringAsReturn.dir
+
+build CMakeFiles/stringAsReturn.dir/Chapter7/Source/字符串作为函数的返回值.cpp.o: CXX_COMPILER__stringAsReturn_Debug /Users/momo/Desktop/CPP/Chapter7/Source/字符串作为函数的返回值.cpp || cmake_object_order_depends_target_stringAsReturn
+  DEP_FILE = CMakeFiles/stringAsReturn.dir/Chapter7/Source/字符串作为函数的返回值.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/stringAsReturn.dir
+  OBJECT_FILE_DIR = CMakeFiles/stringAsReturn.dir/Chapter7/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target stringAsReturn
+
+
+#############################################
+# Link the executable stringAsReturn
+
+build stringAsReturn: CXX_EXECUTABLE_LINKER__stringAsReturn_Debug CMakeFiles/stringAsReturn.dir/Chapter7/Source/字符串作为函数的返回值.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/stringAsReturn.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = stringAsReturn
+  TARGET_PDB = stringAsReturn.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target structAsFuncParameter
+
+
+#############################################
+# Order-only phony target for structAsFuncParameter
+
+build cmake_object_order_depends_target_structAsFuncParameter: phony || CMakeFiles/structAsFuncParameter.dir
+
+build CMakeFiles/structAsFuncParameter.dir/Chapter7/Source/结构作为函数参数.cpp.o: CXX_COMPILER__structAsFuncParameter_Debug /Users/momo/Desktop/CPP/Chapter7/Source/结构作为函数参数.cpp || cmake_object_order_depends_target_structAsFuncParameter
+  DEP_FILE = CMakeFiles/structAsFuncParameter.dir/Chapter7/Source/结构作为函数参数.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/structAsFuncParameter.dir
+  OBJECT_FILE_DIR = CMakeFiles/structAsFuncParameter.dir/Chapter7/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target structAsFuncParameter
+
+
+#############################################
+# Link the executable structAsFuncParameter
+
+build structAsFuncParameter: CXX_EXECUTABLE_LINKER__structAsFuncParameter_Debug CMakeFiles/structAsFuncParameter.dir/Chapter7/Source/结构作为函数参数.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/structAsFuncParameter.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = structAsFuncParameter
+  TARGET_PDB = structAsFuncParameter.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target func_and_string
+
+
+#############################################
+# Order-only phony target for func_and_string
+
+build cmake_object_order_depends_target_func_and_string: phony || CMakeFiles/func_and_string.dir
+
+build CMakeFiles/func_and_string.dir/Chapter7/Source/字符串作为函数参数.cpp.o: CXX_COMPILER__func_and_string_Debug /Users/momo/Desktop/CPP/Chapter7/Source/字符串作为函数参数.cpp || cmake_object_order_depends_target_func_and_string
+  DEP_FILE = CMakeFiles/func_and_string.dir/Chapter7/Source/字符串作为函数参数.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/func_and_string.dir
+  OBJECT_FILE_DIR = CMakeFiles/func_and_string.dir/Chapter7/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target func_and_string
+
+
+#############################################
+# Link the executable func_and_string
+
+build func_and_string: CXX_EXECUTABLE_LINKER__func_and_string_Debug CMakeFiles/func_and_string.dir/Chapter7/Source/字符串作为函数参数.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/func_and_string.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = func_and_string
+  TARGET_PDB = func_and_string.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target arrayAsFuncParameter
+
+
+#############################################
+# Order-only phony target for arrayAsFuncParameter
+
+build cmake_object_order_depends_target_arrayAsFuncParameter: phony || CMakeFiles/arrayAsFuncParameter.dir
+
+build CMakeFiles/arrayAsFuncParameter.dir/Chapter7/Source/vector作为函数参数.cpp.o: CXX_COMPILER__arrayAsFuncParameter_Debug /Users/momo/Desktop/CPP/Chapter7/Source/vector作为函数参数.cpp || cmake_object_order_depends_target_arrayAsFuncParameter
+  DEP_FILE = CMakeFiles/arrayAsFuncParameter.dir/Chapter7/Source/vector作为函数参数.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/arrayAsFuncParameter.dir
+  OBJECT_FILE_DIR = CMakeFiles/arrayAsFuncParameter.dir/Chapter7/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target arrayAsFuncParameter
+
+
+#############################################
+# Link the executable arrayAsFuncParameter
+
+build arrayAsFuncParameter: CXX_EXECUTABLE_LINKER__arrayAsFuncParameter_Debug CMakeFiles/arrayAsFuncParameter.dir/Chapter7/Source/vector作为函数参数.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/arrayAsFuncParameter.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = arrayAsFuncParameter
+  TARGET_PDB = arrayAsFuncParameter.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target func_arr
+
+
+#############################################
+# Order-only phony target for func_arr
+
+build cmake_object_order_depends_target_func_arr: phony || CMakeFiles/func_arr.dir
+
+build CMakeFiles/func_arr.dir/Chapter7/Source/函数指针.cpp.o: CXX_COMPILER__func_arr_Debug /Users/momo/Desktop/CPP/Chapter7/Source/函数指针.cpp || cmake_object_order_depends_target_func_arr
+  DEP_FILE = CMakeFiles/func_arr.dir/Chapter7/Source/函数指针.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/Users/momo/Desktop/CPP/Chapter7/Header
+  OBJECT_DIR = CMakeFiles/func_arr.dir
+  OBJECT_FILE_DIR = CMakeFiles/func_arr.dir/Chapter7/Source
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target func_arr
+
+
+#############################################
+# Link the executable func_arr
+
+build func_arr: CXX_EXECUTABLE_LINKER__func_arr_Debug CMakeFiles/func_arr.dir/Chapter7/Source/函数指针.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/func_arr.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = func_arr
+  TARGET_PDB = func_arr.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1097,7 +1315,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/momo/Desktop/CPP/cmake-build-debug
 
-build all: phony myfirstcpp limit number_system morechar flimit enforce_transform autoVar array getline mix_int_string string Raw struct bitField enum new newArray pointerArr vector arrayTemple express op_and_pointer comma_expression stringCompare time foreachCPP11 while_and_string two_dimensional_arr cctypeStringLibrary switch_and_enum deal_Error_Input write_file read_file
+build all: phony myfirstcpp limit number_system morechar flimit enforce_transform autoVar array getline mix_int_string string Raw struct bitField enum new newArray pointerArr vector arrayTemple express op_and_pointer comma_expression stringCompare time foreachCPP11 while_and_string two_dimensional_arr cctypeStringLibrary switch_and_enum deal_Error_Input write_file read_file range_arr func_and_2D_Array stringAsReturn structAsFuncParameter func_and_string arrayAsFuncParameter func_arr
 
 # =============================================================================
 # Built-in targets

@@ -31,5 +31,12 @@
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/deal_Error_Input.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/write_file.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/read_file.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/range_arr.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/func_and_2D_Array.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/stringAsReturn.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/structAsFuncParameter.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/func_and_string.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/arrayAsFuncParameter.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/func_arr.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

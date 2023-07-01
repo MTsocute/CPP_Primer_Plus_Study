@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "write_file"
+			"path" : "structAsFuncParameter"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 46,
+				"line" : 55,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "write_file::@6890427a1f51a3e7e1df",
+	"id" : "structAsFuncParameter::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -72,8 +72,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "write_file",
-	"nameOnDisk" : "write_file",
+	"name" : "structAsFuncParameter",
+	"nameOnDisk" : "structAsFuncParameter",
 	"paths" : 
 	{
 		"build" : ".",
@@ -94,7 +94,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Chapter6/Source/\u5199\u5230\u6587\u672c\u6587\u4ef6\u4e2d.cpp",
+			"path" : "Chapter7/Source/\u7ed3\u6784\u4f5c\u4e3a\u51fd\u6570\u53c2\u6570.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

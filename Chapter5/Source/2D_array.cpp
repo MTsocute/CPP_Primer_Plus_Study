@@ -16,11 +16,11 @@ const char * stringArr[] {
 
 // 等同于上面这个
 const string stringArr2[] = {
-        "life is what",
-        "life is moive",
-        "what kind of?",
-        "fucking",
-        "life is fucking moive"
+    "life is what",
+    "life is moive",
+    "what kind of?",
+    "fucking",
+    "life is fucking moive"
 };
 
 // 非指针模式的只能一个个遍历

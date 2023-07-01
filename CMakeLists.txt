@@ -40,8 +40,23 @@ add_executable(time Chapter5/Source/时间单位的使用.cpp)
 add_executable(foreachCPP11 Chapter5/Source/基于范围的for循环.cpp)
 add_executable(while_and_string Chapter5/Source/单个字符循环读取.cpp)
 add_executable(two_dimensional_arr Chapter5/Source/2D_array.cpp)
+
+# 第六章
 add_executable(cctypeStringLibrary Chapter6/Source/cctype字符串库.cpp)
 add_executable(switch_and_enum Chapter6/Source/switch和enum搭配.cpp)
 add_executable(deal_Error_Input Chapter6/Source/处理错误输入.cpp)
 add_executable(write_file Chapter6/Source/写到文本文件中.cpp)
 add_executable(read_file Chapter6/Source/读取文本文件.cpp)
+
+# 第七章
+add_executable(range_arr Chapter7/Source/使用数组区间的函数.cpp)
+add_executable(func_and_2D_Array Chapter7/Source/函数和二维数组.cpp)
+add_executable(stringAsReturn Chapter7/Source/字符串作为函数的返回值.cpp)
+add_executable(structAsFuncParameter Chapter7/Source/结构作为函数参数.cpp)
+add_executable(func_and_string Chapter7/Source/字符串作为函数参数.cpp)
+add_executable(arrayAsFuncParameter Chapter7/Source/vector作为函数参数.cpp)
+add_executable(func_arr Chapter7/Source/函数指针.cpp)
+target_include_directories(func_arr PUBLIC Chapter7/Header)
+
+
+# 第八章
