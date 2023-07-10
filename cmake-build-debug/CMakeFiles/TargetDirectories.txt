@@ -38,5 +38,14 @@
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/func_and_string.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/arrayAsFuncParameter.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/func_arr.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/inline_func.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/refer_variable.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/struct_and_reference.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/func_return_reference.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/filefunc.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/func_reload.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/func_template.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/template_reload.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/difference_btw_template_Specialization_and_instantiation.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

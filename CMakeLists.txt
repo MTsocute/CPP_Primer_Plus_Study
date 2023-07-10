@@ -58,5 +58,14 @@ add_executable(arrayAsFuncParameter Chapter7/Source/vector作为函数参数.cpp
 add_executable(func_arr Chapter7/Source/函数指针.cpp)
 target_include_directories(func_arr PUBLIC Chapter7/Header)
 
-
 # 第八章
+add_executable(inline_func Chapter8/Source/内联函数.cpp)
+add_executable(refer_variable Chapter8/Source/引用变量.cpp Chapter8/Source/swaps.cpp)
+target_include_directories(refer_variable PUBLIC Chapter8/Header)
+add_executable(struct_and_reference Chapter8/Source/引用用于结构体.cpp)
+add_executable(func_return_reference Chapter8/Source/返回引用的函数.cpp)
+add_executable(filefunc Chapter6/Source/文件处理函数.cpp)
+add_executable(func_reload Chapter8/Source/函数重载.cpp)
+add_executable(func_template Chapter8/Source/函数模版.cpp)
+add_executable(template_reload Chapter8/Source/模版重载.cpp)
+add_executable(difference_btw_template_Specialization_and_instantiation Chapter8/Source/模版实例化和具体化.cpp)
