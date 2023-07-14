@@ -1568,6 +1568,204 @@ build difference_btw_template_Specialization_and_instantiation: CXX_EXECUTABLE_L
   TARGET_FILE = difference_btw_template_Specialization_and_instantiation
   TARGET_PDB = difference_btw_template_Specialization_and_instantiation.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target extern_declaration
+
+
+#############################################
+# Order-only phony target for extern_declaration
+
+build cmake_object_order_depends_target_extern_declaration: phony || CMakeFiles/extern_declaration.dir
+
+build CMakeFiles/extern_declaration.dir/Chapter9/support.cpp.o: CXX_COMPILER__extern_declaration_Debug /Users/momo/Desktop/CPP/Chapter9/support.cpp || cmake_object_order_depends_target_extern_declaration
+  DEP_FILE = CMakeFiles/extern_declaration.dir/Chapter9/support.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/extern_declaration.dir
+  OBJECT_FILE_DIR = CMakeFiles/extern_declaration.dir/Chapter9
+
+build CMakeFiles/extern_declaration.dir/Chapter9/external.cpp.o: CXX_COMPILER__extern_declaration_Debug /Users/momo/Desktop/CPP/Chapter9/external.cpp || cmake_object_order_depends_target_extern_declaration
+  DEP_FILE = CMakeFiles/extern_declaration.dir/Chapter9/external.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/extern_declaration.dir
+  OBJECT_FILE_DIR = CMakeFiles/extern_declaration.dir/Chapter9
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target extern_declaration
+
+
+#############################################
+# Link the executable extern_declaration
+
+build extern_declaration: CXX_EXECUTABLE_LINKER__extern_declaration_Debug CMakeFiles/extern_declaration.dir/Chapter9/support.cpp.o CMakeFiles/extern_declaration.dir/Chapter9/external.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/extern_declaration.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = extern_declaration
+  TARGET_PDB = extern_declaration.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target detail_of_multi_files
+
+
+#############################################
+# Order-only phony target for detail_of_multi_files
+
+build cmake_object_order_depends_target_detail_of_multi_files: phony || CMakeFiles/detail_of_multi_files.dir
+
+build CMakeFiles/detail_of_multi_files.dir/Chapter9/外部链接需要注意的问题.cpp.o: CXX_COMPILER__detail_of_multi_files_Debug /Users/momo/Desktop/CPP/Chapter9/外部链接需要注意的问题.cpp || cmake_object_order_depends_target_detail_of_multi_files
+  DEP_FILE = CMakeFiles/detail_of_multi_files.dir/Chapter9/外部链接需要注意的问题.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/detail_of_multi_files.dir
+  OBJECT_FILE_DIR = CMakeFiles/detail_of_multi_files.dir/Chapter9
+
+build CMakeFiles/detail_of_multi_files.dir/Chapter9/辅助文件.cpp.o: CXX_COMPILER__detail_of_multi_files_Debug /Users/momo/Desktop/CPP/Chapter9/辅助文件.cpp || cmake_object_order_depends_target_detail_of_multi_files
+  DEP_FILE = CMakeFiles/detail_of_multi_files.dir/Chapter9/辅助文件.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/detail_of_multi_files.dir
+  OBJECT_FILE_DIR = CMakeFiles/detail_of_multi_files.dir/Chapter9
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target detail_of_multi_files
+
+
+#############################################
+# Link the executable detail_of_multi_files
+
+build detail_of_multi_files: CXX_EXECUTABLE_LINKER__detail_of_multi_files_Debug CMakeFiles/detail_of_multi_files.dir/Chapter9/外部链接需要注意的问题.cpp.o CMakeFiles/detail_of_multi_files.dir/Chapter9/辅助文件.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/detail_of_multi_files.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = detail_of_multi_files
+  TARGET_PDB = detail_of_multi_files.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target static_local_var
+
+
+#############################################
+# Order-only phony target for static_local_var
+
+build cmake_object_order_depends_target_static_local_var: phony || CMakeFiles/static_local_var.dir
+
+build CMakeFiles/static_local_var.dir/Chapter9/无链接性的局部变量.cpp.o: CXX_COMPILER__static_local_var_Debug /Users/momo/Desktop/CPP/Chapter9/无链接性的局部变量.cpp || cmake_object_order_depends_target_static_local_var
+  DEP_FILE = CMakeFiles/static_local_var.dir/Chapter9/无链接性的局部变量.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/static_local_var.dir
+  OBJECT_FILE_DIR = CMakeFiles/static_local_var.dir/Chapter9
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target static_local_var
+
+
+#############################################
+# Link the executable static_local_var
+
+build static_local_var: CXX_EXECUTABLE_LINKER__static_local_var_Debug CMakeFiles/static_local_var.dir/Chapter9/无链接性的局部变量.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/static_local_var.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = static_local_var
+  TARGET_PDB = static_local_var.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target link_C_in_CPP
+
+
+#############################################
+# Order-only phony target for link_C_in_CPP
+
+build cmake_object_order_depends_target_link_C_in_CPP: phony || CMakeFiles/link_C_in_CPP.dir
+
+build CMakeFiles/link_C_in_CPP.dir/Chapter9/语言链接性/link_C.c.o: C_COMPILER__link_C_in_CPP_Debug /Users/momo/Desktop/CPP/Chapter9/语言链接性/link_C.c || cmake_object_order_depends_target_link_C_in_CPP
+  DEP_FILE = CMakeFiles/link_C_in_CPP.dir/Chapter9/语言链接性/link_C.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/link_C_in_CPP.dir
+  OBJECT_FILE_DIR = CMakeFiles/link_C_in_CPP.dir/Chapter9/语言链接性
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target link_C_in_CPP
+
+
+#############################################
+# Link the executable link_C_in_CPP
+
+build link_C_in_CPP: C_EXECUTABLE_LINKER__link_C_in_CPP_Debug CMakeFiles/link_C_in_CPP.dir/Chapter9/语言链接性/link_C.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/link_C_in_CPP.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = link_C_in_CPP
+  TARGET_PDB = link_C_in_CPP.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target new_supplement
+
+
+#############################################
+# Order-only phony target for new_supplement
+
+build cmake_object_order_depends_target_new_supplement: phony || CMakeFiles/new_supplement.dir
+
+build CMakeFiles/new_supplement.dir/Chapter9/new补充.cpp.o: CXX_COMPILER__new_supplement_Debug /Users/momo/Desktop/CPP/Chapter9/new补充.cpp || cmake_object_order_depends_target_new_supplement
+  DEP_FILE = CMakeFiles/new_supplement.dir/Chapter9/new补充.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/new_supplement.dir
+  OBJECT_FILE_DIR = CMakeFiles/new_supplement.dir/Chapter9
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target new_supplement
+
+
+#############################################
+# Link the executable new_supplement
+
+build new_supplement: CXX_EXECUTABLE_LINKER__new_supplement_Debug CMakeFiles/new_supplement.dir/Chapter9/new补充.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/new_supplement.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = new_supplement
+  TARGET_PDB = new_supplement.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target namespace
+
+
+#############################################
+# Order-only phony target for namespace
+
+build cmake_object_order_depends_target_namespace: phony || CMakeFiles/namespace.dir
+
+build CMakeFiles/namespace.dir/Chapter9/命名空间.cpp.o: CXX_COMPILER__namespace_Debug /Users/momo/Desktop/CPP/Chapter9/命名空间.cpp || cmake_object_order_depends_target_namespace
+  DEP_FILE = CMakeFiles/namespace.dir/Chapter9/命名空间.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/namespace.dir
+  OBJECT_FILE_DIR = CMakeFiles/namespace.dir/Chapter9
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target namespace
+
+
+#############################################
+# Link the executable namespace
+
+build namespace: CXX_EXECUTABLE_LINKER__namespace_Debug CMakeFiles/namespace.dir/Chapter9/命名空间.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/namespace.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = namespace
+  TARGET_PDB = namespace.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1602,7 +1800,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/momo/Desktop/CPP/cmake-build-debug
 
-build all: phony myfirstcpp limit number_system morechar flimit enforce_transform autoVar array getline mix_int_string string Raw struct bitField enum new newArray pointerArr vector arrayTemple express op_and_pointer comma_expression stringCompare time foreachCPP11 while_and_string two_dimensional_arr cctypeStringLibrary switch_and_enum deal_Error_Input write_file read_file range_arr func_and_2D_Array stringAsReturn structAsFuncParameter func_and_string arrayAsFuncParameter func_arr inline_func refer_variable struct_and_reference func_return_reference filefunc func_reload func_template template_reload difference_btw_template_Specialization_and_instantiation
+build all: phony myfirstcpp limit number_system morechar flimit enforce_transform autoVar array getline mix_int_string string Raw struct bitField enum new newArray pointerArr vector arrayTemple express op_and_pointer comma_expression stringCompare time foreachCPP11 while_and_string two_dimensional_arr cctypeStringLibrary switch_and_enum deal_Error_Input write_file read_file range_arr func_and_2D_Array stringAsReturn structAsFuncParameter func_and_string arrayAsFuncParameter func_arr inline_func refer_variable struct_and_reference func_return_reference filefunc func_reload func_template template_reload difference_btw_template_Specialization_and_instantiation extern_declaration detail_of_multi_files static_local_var link_C_in_CPP new_supplement namespace
 
 # =============================================================================
 # Built-in targets

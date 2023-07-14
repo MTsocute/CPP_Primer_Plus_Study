@@ -69,3 +69,14 @@ add_executable(func_reload Chapter8/Source/函数重载.cpp)
 add_executable(func_template Chapter8/Source/函数模版.cpp)
 add_executable(template_reload Chapter8/Source/模版重载.cpp)
 add_executable(difference_btw_template_Specialization_and_instantiation Chapter8/Source/模版实例化和具体化.cpp)
+
+# 第九章
+add_executable(extern_declaration Chapter9/support.cpp Chapter9/external.cpp)
+add_executable(detail_of_multi_files Chapter9/外部链接需要注意的问题.cpp Chapter9/辅助文件.cpp)
+add_executable(static_local_var Chapter9/无链接性的局部变量.cpp)
+add_executable(link_C_in_CPP Chapter9/语言链接性/link_C.c Chapter9/语言链接性/link_C.h)
+add_executable(new_supplement Chapter9/new补充.cpp)
+add_executable(namespace Chapter9/命名空间.cpp)
+
+
+# 第十章

@@ -47,5 +47,11 @@
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/func_template.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/template_reload.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/difference_btw_template_Specialization_and_instantiation.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/extern_declaration.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/detail_of_multi_files.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/static_local_var.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/link_C_in_CPP.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/new_supplement.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/namespace.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
