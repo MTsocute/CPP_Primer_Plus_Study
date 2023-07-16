@@ -53,5 +53,9 @@
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/link_C_in_CPP.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/new_supplement.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/namespace.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/class_demo.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/constructor_func.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/destructor_func.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/return_this.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

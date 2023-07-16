@@ -78,5 +78,8 @@ add_executable(link_C_in_CPP Chapter9/语言链接性/link_C.c Chapter9/语言�
 add_executable(new_supplement Chapter9/new补充.cpp)
 add_executable(namespace Chapter9/命名空间.cpp)
 
-
 # 第十章
+add_executable(class_demo Chapter10/类演示.cpp Chapter10/类演示.h)
+add_executable(constructor_func Chapter10/构造函数.cpp)
+add_executable(destructor_func Chapter10/析构函数.cpp)
+add_executable(return_this Chapter10/不同方法返回this.cpp)

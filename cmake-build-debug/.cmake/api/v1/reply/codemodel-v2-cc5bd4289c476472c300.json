@@ -69,7 +69,11 @@
 						51,
 						52,
 						53,
-						54
+						54,
+						55,
+						56,
+						57,
+						58
 					]
 				}
 			],
@@ -138,7 +142,11 @@
 						51,
 						52,
 						53,
-						54
+						54,
+						55,
+						56,
+						57,
+						58
 					]
 				}
 			],
@@ -195,6 +203,13 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "class_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-class_demo-Debug-0d4ff2b0642a488c464d.json",
+					"name" : "class_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "comma_expression::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-comma_expression-Debug-a4ec6eaf6b3c242436da.json",
 					"name" : "comma_expression",
@@ -202,9 +217,23 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "constructor_func::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-constructor_func-Debug-27af3549c9e8981b7d6b.json",
+					"name" : "constructor_func",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "deal_Error_Input::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-deal_Error_Input-Debug-68498d9cac05bcdca877.json",
 					"name" : "deal_Error_Input",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "destructor_func::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-destructor_func-Debug-4b68f56cc3e02e5db0fc.json",
+					"name" : "destructor_func",
 					"projectIndex" : 0
 				},
 				{
@@ -429,6 +458,13 @@
 					"id" : "refer_variable::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-refer_variable-Debug-878fdb4c99609197c44a.json",
 					"name" : "refer_variable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "return_this::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-return_this-Debug-759c430961b2e0ff89be.json",
+					"name" : "return_this",
 					"projectIndex" : 0
 				},
 				{

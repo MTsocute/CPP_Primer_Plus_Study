@@ -1766,6 +1766,130 @@ build namespace: CXX_EXECUTABLE_LINKER__namespace_Debug CMakeFiles/namespace.dir
   TARGET_FILE = namespace
   TARGET_PDB = namespace.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target class_demo
+
+
+#############################################
+# Order-only phony target for class_demo
+
+build cmake_object_order_depends_target_class_demo: phony || CMakeFiles/class_demo.dir
+
+build CMakeFiles/class_demo.dir/Chapter10/类演示.cpp.o: CXX_COMPILER__class_demo_Debug /Users/momo/Desktop/CPP/Chapter10/类演示.cpp || cmake_object_order_depends_target_class_demo
+  DEP_FILE = CMakeFiles/class_demo.dir/Chapter10/类演示.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/class_demo.dir
+  OBJECT_FILE_DIR = CMakeFiles/class_demo.dir/Chapter10
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target class_demo
+
+
+#############################################
+# Link the executable class_demo
+
+build class_demo: CXX_EXECUTABLE_LINKER__class_demo_Debug CMakeFiles/class_demo.dir/Chapter10/类演示.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/class_demo.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = class_demo
+  TARGET_PDB = class_demo.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target constructor_func
+
+
+#############################################
+# Order-only phony target for constructor_func
+
+build cmake_object_order_depends_target_constructor_func: phony || CMakeFiles/constructor_func.dir
+
+build CMakeFiles/constructor_func.dir/Chapter10/构造函数.cpp.o: CXX_COMPILER__constructor_func_Debug /Users/momo/Desktop/CPP/Chapter10/构造函数.cpp || cmake_object_order_depends_target_constructor_func
+  DEP_FILE = CMakeFiles/constructor_func.dir/Chapter10/构造函数.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/constructor_func.dir
+  OBJECT_FILE_DIR = CMakeFiles/constructor_func.dir/Chapter10
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target constructor_func
+
+
+#############################################
+# Link the executable constructor_func
+
+build constructor_func: CXX_EXECUTABLE_LINKER__constructor_func_Debug CMakeFiles/constructor_func.dir/Chapter10/构造函数.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/constructor_func.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = constructor_func
+  TARGET_PDB = constructor_func.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target destructor_func
+
+
+#############################################
+# Order-only phony target for destructor_func
+
+build cmake_object_order_depends_target_destructor_func: phony || CMakeFiles/destructor_func.dir
+
+build CMakeFiles/destructor_func.dir/Chapter10/析构函数.cpp.o: CXX_COMPILER__destructor_func_Debug /Users/momo/Desktop/CPP/Chapter10/析构函数.cpp || cmake_object_order_depends_target_destructor_func
+  DEP_FILE = CMakeFiles/destructor_func.dir/Chapter10/析构函数.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/destructor_func.dir
+  OBJECT_FILE_DIR = CMakeFiles/destructor_func.dir/Chapter10
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target destructor_func
+
+
+#############################################
+# Link the executable destructor_func
+
+build destructor_func: CXX_EXECUTABLE_LINKER__destructor_func_Debug CMakeFiles/destructor_func.dir/Chapter10/析构函数.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/destructor_func.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = destructor_func
+  TARGET_PDB = destructor_func.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target return_this
+
+
+#############################################
+# Order-only phony target for return_this
+
+build cmake_object_order_depends_target_return_this: phony || CMakeFiles/return_this.dir
+
+build CMakeFiles/return_this.dir/Chapter10/不同方法返回this.cpp.o: CXX_COMPILER__return_this_Debug /Users/momo/Desktop/CPP/Chapter10/不同方法返回this.cpp || cmake_object_order_depends_target_return_this
+  DEP_FILE = CMakeFiles/return_this.dir/Chapter10/不同方法返回this.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/return_this.dir
+  OBJECT_FILE_DIR = CMakeFiles/return_this.dir/Chapter10
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target return_this
+
+
+#############################################
+# Link the executable return_this
+
+build return_this: CXX_EXECUTABLE_LINKER__return_this_Debug CMakeFiles/return_this.dir/Chapter10/不同方法返回this.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/return_this.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = return_this
+  TARGET_PDB = return_this.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1800,7 +1924,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/momo/Desktop/CPP/cmake-build-debug
 
-build all: phony myfirstcpp limit number_system morechar flimit enforce_transform autoVar array getline mix_int_string string Raw struct bitField enum new newArray pointerArr vector arrayTemple express op_and_pointer comma_expression stringCompare time foreachCPP11 while_and_string two_dimensional_arr cctypeStringLibrary switch_and_enum deal_Error_Input write_file read_file range_arr func_and_2D_Array stringAsReturn structAsFuncParameter func_and_string arrayAsFuncParameter func_arr inline_func refer_variable struct_and_reference func_return_reference filefunc func_reload func_template template_reload difference_btw_template_Specialization_and_instantiation extern_declaration detail_of_multi_files static_local_var link_C_in_CPP new_supplement namespace
+build all: phony myfirstcpp limit number_system morechar flimit enforce_transform autoVar array getline mix_int_string string Raw struct bitField enum new newArray pointerArr vector arrayTemple express op_and_pointer comma_expression stringCompare time foreachCPP11 while_and_string two_dimensional_arr cctypeStringLibrary switch_and_enum deal_Error_Input write_file read_file range_arr func_and_2D_Array stringAsReturn structAsFuncParameter func_and_string arrayAsFuncParameter func_arr inline_func refer_variable struct_and_reference func_return_reference filefunc func_reload func_template template_reload difference_btw_template_Specialization_and_instantiation extern_declaration detail_of_multi_files static_local_var link_C_in_CPP new_supplement namespace class_demo constructor_func destructor_func return_this
 
 # =============================================================================
 # Built-in targets
