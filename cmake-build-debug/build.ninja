@@ -1890,6 +1890,99 @@ build return_this: CXX_EXECUTABLE_LINKER__return_this_Debug CMakeFiles/return_th
   TARGET_FILE = return_this
   TARGET_PDB = return_this.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target op_reload
+
+
+#############################################
+# Order-only phony target for op_reload
+
+build cmake_object_order_depends_target_op_reload: phony || CMakeFiles/op_reload.dir
+
+build CMakeFiles/op_reload.dir/Chapter11/运算符重载.cpp.o: CXX_COMPILER__op_reload_Debug /Users/momo/Desktop/CPP/Chapter11/运算符重载.cpp || cmake_object_order_depends_target_op_reload
+  DEP_FILE = CMakeFiles/op_reload.dir/Chapter11/运算符重载.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/op_reload.dir
+  OBJECT_FILE_DIR = CMakeFiles/op_reload.dir/Chapter11
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target op_reload
+
+
+#############################################
+# Link the executable op_reload
+
+build op_reload: CXX_EXECUTABLE_LINKER__op_reload_Debug CMakeFiles/op_reload.dir/Chapter11/运算符重载.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/op_reload.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = op_reload
+  TARGET_PDB = op_reload.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target friend
+
+
+#############################################
+# Order-only phony target for friend
+
+build cmake_object_order_depends_target_friend: phony || CMakeFiles/friend.dir
+
+build CMakeFiles/friend.dir/Chapter11/友元.cpp.o: CXX_COMPILER__friend_Debug /Users/momo/Desktop/CPP/Chapter11/友元.cpp || cmake_object_order_depends_target_friend
+  DEP_FILE = CMakeFiles/friend.dir/Chapter11/友元.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/friend.dir
+  OBJECT_FILE_DIR = CMakeFiles/friend.dir/Chapter11
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target friend
+
+
+#############################################
+# Link the executable friend
+
+build friend: CXX_EXECUTABLE_LINKER__friend_Debug CMakeFiles/friend.dir/Chapter11/友元.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/friend.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = friend
+  TARGET_PDB = friend.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target transform_of_class
+
+
+#############################################
+# Order-only phony target for transform_of_class
+
+build cmake_object_order_depends_target_transform_of_class: phony || CMakeFiles/transform_of_class.dir
+
+build CMakeFiles/transform_of_class.dir/Chapter11/类的自动转换和强制转换.cpp.o: CXX_COMPILER__transform_of_class_Debug /Users/momo/Desktop/CPP/Chapter11/类的自动转换和强制转换.cpp || cmake_object_order_depends_target_transform_of_class
+  DEP_FILE = CMakeFiles/transform_of_class.dir/Chapter11/类的自动转换和强制转换.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/transform_of_class.dir
+  OBJECT_FILE_DIR = CMakeFiles/transform_of_class.dir/Chapter11
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target transform_of_class
+
+
+#############################################
+# Link the executable transform_of_class
+
+build transform_of_class: CXX_EXECUTABLE_LINKER__transform_of_class_Debug CMakeFiles/transform_of_class.dir/Chapter11/类的自动转换和强制转换.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/transform_of_class.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = transform_of_class
+  TARGET_PDB = transform_of_class.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1924,7 +2017,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/momo/Desktop/CPP/cmake-build-debug
 
-build all: phony myfirstcpp limit number_system morechar flimit enforce_transform autoVar array getline mix_int_string string Raw struct bitField enum new newArray pointerArr vector arrayTemple express op_and_pointer comma_expression stringCompare time foreachCPP11 while_and_string two_dimensional_arr cctypeStringLibrary switch_and_enum deal_Error_Input write_file read_file range_arr func_and_2D_Array stringAsReturn structAsFuncParameter func_and_string arrayAsFuncParameter func_arr inline_func refer_variable struct_and_reference func_return_reference filefunc func_reload func_template template_reload difference_btw_template_Specialization_and_instantiation extern_declaration detail_of_multi_files static_local_var link_C_in_CPP new_supplement namespace class_demo constructor_func destructor_func return_this
+build all: phony myfirstcpp limit number_system morechar flimit enforce_transform autoVar array getline mix_int_string string Raw struct bitField enum new newArray pointerArr vector arrayTemple express op_and_pointer comma_expression stringCompare time foreachCPP11 while_and_string two_dimensional_arr cctypeStringLibrary switch_and_enum deal_Error_Input write_file read_file range_arr func_and_2D_Array stringAsReturn structAsFuncParameter func_and_string arrayAsFuncParameter func_arr inline_func refer_variable struct_and_reference func_return_reference filefunc func_reload func_template template_reload difference_btw_template_Specialization_and_instantiation extern_declaration detail_of_multi_files static_local_var link_C_in_CPP new_supplement namespace class_demo constructor_func destructor_func return_this op_reload friend transform_of_class
 
 # =============================================================================
 # Built-in targets

@@ -57,5 +57,8 @@
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/constructor_func.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/destructor_func.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/return_this.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/op_reload.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/friend.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/transform_of_class.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

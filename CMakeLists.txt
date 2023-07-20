@@ -3,7 +3,9 @@ cmake_minimum_required(VERSION 3.25)
 # 项目名称
 project(CPP)
 
+# 版本限制为 17
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED  True)
 
 # 第二章
 add_executable(myfirstcpp Chapter2/Source/helloworld.cpp)
@@ -83,3 +85,8 @@ add_executable(class_demo Chapter10/类演示.cpp Chapter10/类演示.h)
 add_executable(constructor_func Chapter10/构造函数.cpp)
 add_executable(destructor_func Chapter10/析构函数.cpp)
 add_executable(return_this Chapter10/不同方法返回this.cpp)
+
+# 第十一章
+add_executable(op_reload Chapter11/运算符重载.cpp Chapter11/运算符重载.h)
+add_executable(friend Chapter11/友元.cpp)
+add_executable(transform_of_class Chapter11/类的自动转换和强制转换.cpp)

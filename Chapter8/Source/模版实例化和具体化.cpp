@@ -6,9 +6,15 @@
 using namespace std;
 
 namespace demo {
-// 创建的一个模版，但是要求两个参数类型相同
     template<typename T>
     T add(T a, T b) {
+        return a + b;
+    }
+
+    // 特化版本的函数实现
+    template<>
+    double add<double>(double a, double b)  // --> <double> 占据的是 T 的位置
+    {
         return a + b;
     }
 }
