@@ -41,18 +41,16 @@ void different_data() {
     int *p = new(datas) int[8]
             {1, 2, 3, 4, 5, 6, 7, 8};   // --> 32 byte
 
-    for (int i = 0; i < 8; ++i) {
+    for (int i = 0; i < 8; ++i)
         cout << p[i] << " ";
-    }
     cout << endl;
 
     // 当然由于定位用的是指针，我们是可以计算字节来偏移的
     int *p2 = new(datas + 8 * sizeof(int)) int[4]
             {9, 10, 11, 12};    // --> 16 byte
 
-    for (int i = 0; i < 4; ++i) {
+    for (int i = 0; i < 4; ++i)
         cout << p2[i] << " ";
-    }
     cout << endl;
 
     // 注意这个 p 指向的是一个数组的静态内存，我们是定位不是开辟新空间，不可以 delete
