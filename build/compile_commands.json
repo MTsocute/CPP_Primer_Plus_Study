@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/Users/momo/Desktop/CPP/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/basic_class.dir/Chapter13/一个简单基类的使用.cpp.o -c /Users/momo/Desktop/CPP/Chapter13/一个简单基类的使用.cpp",
+  "file": "/Users/momo/Desktop/CPP/Chapter13/一个简单基类的使用.cpp",
+  "output": "CMakeFiles/basic_class.dir/Chapter13/一个简单基类的使用.cpp.o"
+},
+{
+  "directory": "/Users/momo/Desktop/CPP/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/basic_class.dir/Chapter13/一个简单的基类.cpp.o -c /Users/momo/Desktop/CPP/Chapter13/一个简单的基类.cpp",
+  "file": "/Users/momo/Desktop/CPP/Chapter13/一个简单的基类.cpp",
+  "output": "CMakeFiles/basic_class.dir/Chapter13/一个简单的基类.cpp.o"
+},
+{
+  "directory": "/Users/momo/Desktop/CPP/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/polymorphic_public_inheritance.dir/Chapter13/多态公有继承.cpp.o -c /Users/momo/Desktop/CPP/Chapter13/多态公有继承.cpp",
+  "file": "/Users/momo/Desktop/CPP/Chapter13/多态公有继承.cpp",
+  "output": "CMakeFiles/polymorphic_public_inheritance.dir/Chapter13/多态公有继承.cpp.o"
+},
+{
+  "directory": "/Users/momo/Desktop/CPP/build",
+  "command": "/usr/bin/clang++   -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/implicit_downcasting.dir/Chapter13/隐式向下转换.cpp.o -c /Users/momo/Desktop/CPP/Chapter13/隐式向下转换.cpp",
+  "file": "/Users/momo/Desktop/CPP/Chapter13/隐式向下转换.cpp",
+  "output": "CMakeFiles/implicit_downcasting.dir/Chapter13/隐式向下转换.cpp.o"
+}
+]

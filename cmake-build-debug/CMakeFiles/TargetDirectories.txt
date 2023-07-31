@@ -1,9 +1,3 @@
-/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/new_supplement.dir
-/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/static_member_class.dir
-/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/cp_constructor_func.dir
-/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/equal_op.dir
-/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/return_val.dir
-/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/classPointer.dir
-/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/new_loc.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/dynamic_mem_allocate_and_friend_func.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CPP",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "basic_class::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-basic_class-Debug-277f7acbd5988217cc3b.json",
+					"name" : "basic_class",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "implicit_downcasting::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-implicit_downcasting-Debug-53dbfa17494e90ed4ab1.json",
+					"name" : "implicit_downcasting",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "polymorphic_public_inheritance::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-polymorphic_public_inheritance-Debug-316a9dfa1632ad6bf27c.json",
+					"name" : "polymorphic_public_inheritance",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/momo/Desktop/CPP/build",
+		"source" : "/Users/momo/Desktop/CPP"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
