@@ -47,7 +47,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/basic_class.dir/DependInfo.cmake"
-  "CMakeFiles/polymorphic_public_inheritance.dir/DependInfo.cmake"
-  "CMakeFiles/implicit_downcasting.dir/DependInfo.cmake"
+  "CMakeFiles/has_a.dir/DependInfo.cmake"
+  "CMakeFiles/private_inheritance.dir/DependInfo.cmake"
   )

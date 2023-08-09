@@ -5,7 +5,7 @@ project(CPP VERSION 1.0)
 
 # 版本限制为 17
 set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 ## 第二章
 #add_executable(myfirstcpp Chapter2/Source/helloworld.cpp)
@@ -93,7 +93,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 ## 第十二章
 #add_executable(static_member_class Chapter12/Source/静态成员类.cpp)
-#add_executable(cp_constructor_func Chapter12/Source/复制构造函数.cpp
+#add_executable(cp_constructor_func
+#        Chapter12/Source/复制构造函数.cpp
 #        Chapter12/Header/复制构造函数.h)
 #add_executable(equal_op Chapter12/Source/赋值运算符.cpp)
 #add_executable(return_val Chapter12/Source/关于返回对象的说明.cpp
@@ -116,7 +117,41 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 #        Chapter13/抽象基类.cpp
 #        Chapter13/抽象基类.h
 #        Chapter13/抽象基类_main.cpp)
+#add_executable(dynamic_mem_allocate_and_friend_func
+#        Chapter13/动态内存分配和友元继承demo.cpp
+#        Chapter13/动态内存分配和友元继承demo.h)
 
-add_executable(dynamic_mem_allocate_and_friend_func
-        Chapter13/动态内存分配和友元继承demo.cpp
-        Chapter13/动态内存分配和友元继承demo.h)
+# 第十四章
+#add_executable(has_a
+#        Chapter14/has_a关系类设计.cpp
+#        Chapter14/has_a关系类设计.h)
+#add_executable(private_inheritance
+#        Chapter14/私有继承实现has-a关系.cpp
+#        Chapter14/私有继承实现has-a关系.h)
+#add_executable(protected_inheritance Chapter14/保护继承/保护继承.cpp )
+#target_include_directories(protected_inheritance PUBLIC Chapter14/保护继承)
+#add_executable(using_redefine_authority
+#        Chapter14/使用using重新定义访问权限.cpp)
+#add_executable(MI
+#        Chapter14/MI/多重继承.cpp
+#        Chapter14/MI/多重继承.h
+#        Chapter14/MI/多重继承带来的问题.h
+#        Chapter14/MI/虚基类解决MI冗余问题.h)
+#add_executable(class_template
+#        Chapter14/类模版.cpp)
+#add_executable(array_template
+#        Chapter14/数组模版.cpp
+#        Chapter14/数组模版.h)
+#add_executable(more_para_class_template Chapter14/使用多个类型参数.cpp)
+#add_executable(partial_specialization Chapter14/部分具体化.cpp)
+#add_executable(member_template
+#        Chapter14/成员模版.cpp
+#        Chapter14/成员模版.h)
+#add_executable(template_as_para
+#        Chapter14/模版作为参数.cpp
+#        Chapter14/模版作为参数.h)
+add_executable(friend_template
+        Chapter14/模版类和友元.cpp
+        Chapter14/模版类和友元.h
+        Chapter14/限制模版友元函数.h
+        Chapter14/非限制模版友元函数.h)

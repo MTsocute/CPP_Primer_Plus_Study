@@ -41,35 +41,35 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/momo/Desktop/CPP/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target dynamic_mem_allocate_and_friend_func
+# Object build statements for EXECUTABLE target friend_template
 
 
 #############################################
-# Order-only phony target for dynamic_mem_allocate_and_friend_func
+# Order-only phony target for friend_template
 
-build cmake_object_order_depends_target_dynamic_mem_allocate_and_friend_func: phony || CMakeFiles/dynamic_mem_allocate_and_friend_func.dir
+build cmake_object_order_depends_target_friend_template: phony || CMakeFiles/friend_template.dir
 
-build CMakeFiles/dynamic_mem_allocate_and_friend_func.dir/Chapter13/动态内存分配和友元继承demo.cpp.o: CXX_COMPILER__dynamic_mem_allocate_and_friend_func_unscanned_Debug /Users/momo/Desktop/CPP/Chapter13/动态内存分配和友元继承demo.cpp || cmake_object_order_depends_target_dynamic_mem_allocate_and_friend_func
-  DEP_FILE = CMakeFiles/dynamic_mem_allocate_and_friend_func.dir/Chapter13/动态内存分配和友元继承demo.cpp.o.d
+build CMakeFiles/friend_template.dir/Chapter14/模版类和友元.cpp.o: CXX_COMPILER__friend_template_unscanned_Debug /Users/momo/Desktop/CPP/Chapter14/模版类和友元.cpp || cmake_object_order_depends_target_friend_template
+  DEP_FILE = CMakeFiles/friend_template.dir/Chapter14/模版类和友元.cpp.o.d
   FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/dynamic_mem_allocate_and_friend_func.dir
-  OBJECT_FILE_DIR = CMakeFiles/dynamic_mem_allocate_and_friend_func.dir/Chapter13
+  OBJECT_DIR = CMakeFiles/friend_template.dir
+  OBJECT_FILE_DIR = CMakeFiles/friend_template.dir/Chapter14
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target dynamic_mem_allocate_and_friend_func
+# Link build statements for EXECUTABLE target friend_template
 
 
 #############################################
-# Link the executable dynamic_mem_allocate_and_friend_func
+# Link the executable friend_template
 
-build dynamic_mem_allocate_and_friend_func: CXX_EXECUTABLE_LINKER__dynamic_mem_allocate_and_friend_func_Debug CMakeFiles/dynamic_mem_allocate_and_friend_func.dir/Chapter13/动态内存分配和友元继承demo.cpp.o
+build friend_template: CXX_EXECUTABLE_LINKER__friend_template_Debug CMakeFiles/friend_template.dir/Chapter14/模版类和友元.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/dynamic_mem_allocate_and_friend_func.dir
+  OBJECT_DIR = CMakeFiles/friend_template.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = dynamic_mem_allocate_and_friend_func
-  TARGET_PDB = dynamic_mem_allocate_and_friend_func.dbg
+  TARGET_FILE = friend_template
+  TARGET_PDB = friend_template.dbg
 
 
 #############################################
@@ -105,7 +105,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/momo/Desktop/CPP/cmake-build-debug
 
-build all: phony dynamic_mem_allocate_and_friend_func
+build all: phony friend_template
 
 # =============================================================================
 # Built-in targets

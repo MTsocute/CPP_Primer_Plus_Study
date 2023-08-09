@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "dynamic_mem_allocate_and_friend_func::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-dynamic_mem_allocate_and_friend_func-Debug-51bca624c191231c356a.json",
-					"name" : "dynamic_mem_allocate_and_friend_func",
+					"id" : "friend_template::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-friend_template-Debug-7d81a1fe9e096e1d26ca.json",
+					"name" : "friend_template",
 					"projectIndex" : 0
 				}
 			]

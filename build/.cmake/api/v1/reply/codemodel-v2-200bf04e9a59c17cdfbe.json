@@ -16,8 +16,7 @@
 					"targetIndexes" : 
 					[
 						0,
-						1,
-						2
+						1
 					]
 				}
 			],
@@ -33,8 +32,7 @@
 					"targetIndexes" : 
 					[
 						0,
-						1,
-						2
+						1
 					]
 				}
 			],
@@ -42,23 +40,16 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "basic_class::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-basic_class-Debug-277f7acbd5988217cc3b.json",
-					"name" : "basic_class",
+					"id" : "has_a::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-has_a-Debug-d520ccbfb758ceae4c27.json",
+					"name" : "has_a",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "implicit_downcasting::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-implicit_downcasting-Debug-53dbfa17494e90ed4ab1.json",
-					"name" : "implicit_downcasting",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "polymorphic_public_inheritance::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-polymorphic_public_inheritance-Debug-316a9dfa1632ad6bf27c.json",
-					"name" : "polymorphic_public_inheritance",
+					"id" : "private_inheritance::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-private_inheritance-Debug-ed02109b9d519141bc9b.json",
+					"name" : "private_inheritance",
 					"projectIndex" : 0
 				}
 			]

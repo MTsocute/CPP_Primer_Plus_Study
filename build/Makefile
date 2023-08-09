@@ -117,139 +117,78 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named basic_class
+# Target rules for targets named has_a
 
 # Build rule for target.
-basic_class: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 basic_class
-.PHONY : basic_class
+has_a: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 has_a
+.PHONY : has_a
 
 # fast build rule for target.
-basic_class/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_class.dir/build.make CMakeFiles/basic_class.dir/build
-.PHONY : basic_class/fast
+has_a/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/has_a.dir/build.make CMakeFiles/has_a.dir/build
+.PHONY : has_a/fast
 
 #=============================================================================
-# Target rules for targets named polymorphic_public_inheritance
+# Target rules for targets named private_inheritance
 
 # Build rule for target.
-polymorphic_public_inheritance: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 polymorphic_public_inheritance
-.PHONY : polymorphic_public_inheritance
+private_inheritance: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 private_inheritance
+.PHONY : private_inheritance
 
 # fast build rule for target.
-polymorphic_public_inheritance/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/polymorphic_public_inheritance.dir/build.make CMakeFiles/polymorphic_public_inheritance.dir/build
-.PHONY : polymorphic_public_inheritance/fast
+private_inheritance/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/private_inheritance.dir/build.make CMakeFiles/private_inheritance.dir/build
+.PHONY : private_inheritance/fast
 
-#=============================================================================
-# Target rules for targets named implicit_downcasting
-
-# Build rule for target.
-implicit_downcasting: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 implicit_downcasting
-.PHONY : implicit_downcasting
-
-# fast build rule for target.
-implicit_downcasting/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_downcasting.dir/build.make CMakeFiles/implicit_downcasting.dir/build
-.PHONY : implicit_downcasting/fast
-
-Chapter13/一个简单基类的使用.o: Chapter13/一个简单基类的使用.cpp.o
-.PHONY : Chapter13/一个简单基类的使用.o
+Chapter14/has_a关系类设计.o: Chapter14/has_a关系类设计.cpp.o
+.PHONY : Chapter14/has_a关系类设计.o
 
 # target to build an object file
-Chapter13/一个简单基类的使用.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_class.dir/build.make CMakeFiles/basic_class.dir/Chapter13/一个简单基类的使用.cpp.o
-.PHONY : Chapter13/一个简单基类的使用.cpp.o
+Chapter14/has_a关系类设计.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/has_a.dir/build.make CMakeFiles/has_a.dir/Chapter14/has_a关系类设计.cpp.o
+.PHONY : Chapter14/has_a关系类设计.cpp.o
 
-Chapter13/一个简单基类的使用.i: Chapter13/一个简单基类的使用.cpp.i
-.PHONY : Chapter13/一个简单基类的使用.i
+Chapter14/has_a关系类设计.i: Chapter14/has_a关系类设计.cpp.i
+.PHONY : Chapter14/has_a关系类设计.i
 
 # target to preprocess a source file
-Chapter13/一个简单基类的使用.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_class.dir/build.make CMakeFiles/basic_class.dir/Chapter13/一个简单基类的使用.cpp.i
-.PHONY : Chapter13/一个简单基类的使用.cpp.i
+Chapter14/has_a关系类设计.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/has_a.dir/build.make CMakeFiles/has_a.dir/Chapter14/has_a关系类设计.cpp.i
+.PHONY : Chapter14/has_a关系类设计.cpp.i
 
-Chapter13/一个简单基类的使用.s: Chapter13/一个简单基类的使用.cpp.s
-.PHONY : Chapter13/一个简单基类的使用.s
+Chapter14/has_a关系类设计.s: Chapter14/has_a关系类设计.cpp.s
+.PHONY : Chapter14/has_a关系类设计.s
 
 # target to generate assembly for a file
-Chapter13/一个简单基类的使用.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_class.dir/build.make CMakeFiles/basic_class.dir/Chapter13/一个简单基类的使用.cpp.s
-.PHONY : Chapter13/一个简单基类的使用.cpp.s
+Chapter14/has_a关系类设计.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/has_a.dir/build.make CMakeFiles/has_a.dir/Chapter14/has_a关系类设计.cpp.s
+.PHONY : Chapter14/has_a关系类设计.cpp.s
 
-Chapter13/一个简单的基类.o: Chapter13/一个简单的基类.cpp.o
-.PHONY : Chapter13/一个简单的基类.o
+Chapter14/私有继承实现has-a关系.o: Chapter14/私有继承实现has-a关系.cpp.o
+.PHONY : Chapter14/私有继承实现has-a关系.o
 
 # target to build an object file
-Chapter13/一个简单的基类.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_class.dir/build.make CMakeFiles/basic_class.dir/Chapter13/一个简单的基类.cpp.o
-.PHONY : Chapter13/一个简单的基类.cpp.o
+Chapter14/私有继承实现has-a关系.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/private_inheritance.dir/build.make CMakeFiles/private_inheritance.dir/Chapter14/私有继承实现has-a关系.cpp.o
+.PHONY : Chapter14/私有继承实现has-a关系.cpp.o
 
-Chapter13/一个简单的基类.i: Chapter13/一个简单的基类.cpp.i
-.PHONY : Chapter13/一个简单的基类.i
-
-# target to preprocess a source file
-Chapter13/一个简单的基类.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_class.dir/build.make CMakeFiles/basic_class.dir/Chapter13/一个简单的基类.cpp.i
-.PHONY : Chapter13/一个简单的基类.cpp.i
-
-Chapter13/一个简单的基类.s: Chapter13/一个简单的基类.cpp.s
-.PHONY : Chapter13/一个简单的基类.s
-
-# target to generate assembly for a file
-Chapter13/一个简单的基类.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_class.dir/build.make CMakeFiles/basic_class.dir/Chapter13/一个简单的基类.cpp.s
-.PHONY : Chapter13/一个简单的基类.cpp.s
-
-Chapter13/多态公有继承.o: Chapter13/多态公有继承.cpp.o
-.PHONY : Chapter13/多态公有继承.o
-
-# target to build an object file
-Chapter13/多态公有继承.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/polymorphic_public_inheritance.dir/build.make CMakeFiles/polymorphic_public_inheritance.dir/Chapter13/多态公有继承.cpp.o
-.PHONY : Chapter13/多态公有继承.cpp.o
-
-Chapter13/多态公有继承.i: Chapter13/多态公有继承.cpp.i
-.PHONY : Chapter13/多态公有继承.i
+Chapter14/私有继承实现has-a关系.i: Chapter14/私有继承实现has-a关系.cpp.i
+.PHONY : Chapter14/私有继承实现has-a关系.i
 
 # target to preprocess a source file
-Chapter13/多态公有继承.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/polymorphic_public_inheritance.dir/build.make CMakeFiles/polymorphic_public_inheritance.dir/Chapter13/多态公有继承.cpp.i
-.PHONY : Chapter13/多态公有继承.cpp.i
+Chapter14/私有继承实现has-a关系.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/private_inheritance.dir/build.make CMakeFiles/private_inheritance.dir/Chapter14/私有继承实现has-a关系.cpp.i
+.PHONY : Chapter14/私有继承实现has-a关系.cpp.i
 
-Chapter13/多态公有继承.s: Chapter13/多态公有继承.cpp.s
-.PHONY : Chapter13/多态公有继承.s
-
-# target to generate assembly for a file
-Chapter13/多态公有继承.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/polymorphic_public_inheritance.dir/build.make CMakeFiles/polymorphic_public_inheritance.dir/Chapter13/多态公有继承.cpp.s
-.PHONY : Chapter13/多态公有继承.cpp.s
-
-Chapter13/隐式向下转换.o: Chapter13/隐式向下转换.cpp.o
-.PHONY : Chapter13/隐式向下转换.o
-
-# target to build an object file
-Chapter13/隐式向下转换.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_downcasting.dir/build.make CMakeFiles/implicit_downcasting.dir/Chapter13/隐式向下转换.cpp.o
-.PHONY : Chapter13/隐式向下转换.cpp.o
-
-Chapter13/隐式向下转换.i: Chapter13/隐式向下转换.cpp.i
-.PHONY : Chapter13/隐式向下转换.i
-
-# target to preprocess a source file
-Chapter13/隐式向下转换.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_downcasting.dir/build.make CMakeFiles/implicit_downcasting.dir/Chapter13/隐式向下转换.cpp.i
-.PHONY : Chapter13/隐式向下转换.cpp.i
-
-Chapter13/隐式向下转换.s: Chapter13/隐式向下转换.cpp.s
-.PHONY : Chapter13/隐式向下转换.s
+Chapter14/私有继承实现has-a关系.s: Chapter14/私有继承实现has-a关系.cpp.s
+.PHONY : Chapter14/私有继承实现has-a关系.s
 
 # target to generate assembly for a file
-Chapter13/隐式向下转换.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/implicit_downcasting.dir/build.make CMakeFiles/implicit_downcasting.dir/Chapter13/隐式向下转换.cpp.s
-.PHONY : Chapter13/隐式向下转换.cpp.s
+Chapter14/私有继承实现has-a关系.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/private_inheritance.dir/build.make CMakeFiles/private_inheritance.dir/Chapter14/私有继承实现has-a关系.cpp.s
+.PHONY : Chapter14/私有继承实现has-a关系.cpp.s
 
 # Help Target
 help:
@@ -259,21 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... basic_class"
-	@echo "... implicit_downcasting"
-	@echo "... polymorphic_public_inheritance"
-	@echo "... Chapter13/一个简单基类的使用.o"
-	@echo "... Chapter13/一个简单基类的使用.i"
-	@echo "... Chapter13/一个简单基类的使用.s"
-	@echo "... Chapter13/一个简单的基类.o"
-	@echo "... Chapter13/一个简单的基类.i"
-	@echo "... Chapter13/一个简单的基类.s"
-	@echo "... Chapter13/多态公有继承.o"
-	@echo "... Chapter13/多态公有继承.i"
-	@echo "... Chapter13/多态公有继承.s"
-	@echo "... Chapter13/隐式向下转换.o"
-	@echo "... Chapter13/隐式向下转换.i"
-	@echo "... Chapter13/隐式向下转换.s"
+	@echo "... has_a"
+	@echo "... private_inheritance"
+	@echo "... Chapter14/has_a关系类设计.o"
+	@echo "... Chapter14/has_a关系类设计.i"
+	@echo "... Chapter14/has_a关系类设计.s"
+	@echo "... Chapter14/私有继承实现has-a关系.o"
+	@echo "... Chapter14/私有继承实现has-a关系.i"
+	@echo "... Chapter14/私有继承实现has-a关系.s"
 .PHONY : help
 
 
