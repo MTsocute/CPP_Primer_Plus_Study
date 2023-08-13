@@ -6,6 +6,7 @@ project(CPP VERSION 1.0)
 # 版本限制为 17
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -frtti")
 
 ## 第二章
 #add_executable(myfirstcpp Chapter2/Source/helloworld.cpp)
@@ -150,8 +151,28 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 #add_executable(template_as_para
 #        Chapter14/模版作为参数.cpp
 #        Chapter14/模版作为参数.h)
-add_executable(friend_template
-        Chapter14/模版类和友元.cpp
-        Chapter14/模版类和友元.h
-        Chapter14/限制模版友元函数.h
-        Chapter14/非限制模版友元函数.h)
+#add_executable(friend_template
+#        Chapter14/模版类和友元.cpp
+#        Chapter14/模版类和友元.h
+#        Chapter14/限制模版友元函数.h
+#        Chapter14/非限制模版友元函数.h)
+
+# 第十五章
+#add_executable(error1
+#        Chapter15/异常处理.cpp
+#        Chapter15/异常处理.h)
+#add_executable(error2
+#        Chapter15/异常的再抛出.cpp
+#        Chapter15/异常的再抛出.h)
+#add_executable(exception_override
+#        Chapter15/创建自己的异常类.cpp)
+#add_executable(catch_unexpected_err
+#        Chapter15/捕获非标准的异常.cpp)
+#add_executable(RTTI1
+#        Chapter15/dynamic_cast类的转换.cpp)
+#add_executable(RTTI2
+#        Chapter15/typeid的使用.cpp)
+#add_executable(type_change
+#        Chapter15/类型转换.cpp)
+
+# 第十六章

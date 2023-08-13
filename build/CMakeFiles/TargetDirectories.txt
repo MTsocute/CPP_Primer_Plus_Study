@@ -1,4 +1,0 @@
-/Users/momo/Desktop/CPP/build/CMakeFiles/has_a.dir
-/Users/momo/Desktop/CPP/build/CMakeFiles/private_inheritance.dir
-/Users/momo/Desktop/CPP/build/CMakeFiles/edit_cache.dir
-/Users/momo/Desktop/CPP/build/CMakeFiles/rebuild_cache.dir

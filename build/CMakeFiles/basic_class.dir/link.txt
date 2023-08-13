@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/basic_class.dir/Chapter13/一个简单基类的使用.cpp.o CMakeFiles/basic_class.dir/Chapter13/一个简单的基类.cpp.o -o basic_class 

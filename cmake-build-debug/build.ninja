@@ -41,35 +41,221 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/momo/Desktop/CPP/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target friend_template
+# Object build statements for EXECUTABLE target error1
 
 
 #############################################
-# Order-only phony target for friend_template
+# Order-only phony target for error1
 
-build cmake_object_order_depends_target_friend_template: phony || CMakeFiles/friend_template.dir
+build cmake_object_order_depends_target_error1: phony || CMakeFiles/error1.dir
 
-build CMakeFiles/friend_template.dir/Chapter14/模版类和友元.cpp.o: CXX_COMPILER__friend_template_unscanned_Debug /Users/momo/Desktop/CPP/Chapter14/模版类和友元.cpp || cmake_object_order_depends_target_friend_template
-  DEP_FILE = CMakeFiles/friend_template.dir/Chapter14/模版类和友元.cpp.o.d
-  FLAGS = -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/friend_template.dir
-  OBJECT_FILE_DIR = CMakeFiles/friend_template.dir/Chapter14
+build CMakeFiles/error1.dir/Chapter15/异常处理.cpp.o: CXX_COMPILER__error1_unscanned_Debug /Users/momo/Desktop/CPP/Chapter15/异常处理.cpp || cmake_object_order_depends_target_error1
+  DEP_FILE = CMakeFiles/error1.dir/Chapter15/异常处理.cpp.o.d
+  FLAGS = -frtti -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/error1.dir
+  OBJECT_FILE_DIR = CMakeFiles/error1.dir/Chapter15
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target friend_template
+# Link build statements for EXECUTABLE target error1
 
 
 #############################################
-# Link the executable friend_template
+# Link the executable error1
 
-build friend_template: CXX_EXECUTABLE_LINKER__friend_template_Debug CMakeFiles/friend_template.dir/Chapter14/模版类和友元.cpp.o
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/friend_template.dir
+build error1: CXX_EXECUTABLE_LINKER__error1_Debug CMakeFiles/error1.dir/Chapter15/异常处理.cpp.o
+  FLAGS = -frtti -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/error1.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = friend_template
-  TARGET_PDB = friend_template.dbg
+  TARGET_FILE = error1
+  TARGET_PDB = error1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target error2
+
+
+#############################################
+# Order-only phony target for error2
+
+build cmake_object_order_depends_target_error2: phony || CMakeFiles/error2.dir
+
+build CMakeFiles/error2.dir/Chapter15/异常的再抛出.cpp.o: CXX_COMPILER__error2_unscanned_Debug /Users/momo/Desktop/CPP/Chapter15/异常的再抛出.cpp || cmake_object_order_depends_target_error2
+  DEP_FILE = CMakeFiles/error2.dir/Chapter15/异常的再抛出.cpp.o.d
+  FLAGS = -frtti -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/error2.dir
+  OBJECT_FILE_DIR = CMakeFiles/error2.dir/Chapter15
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target error2
+
+
+#############################################
+# Link the executable error2
+
+build error2: CXX_EXECUTABLE_LINKER__error2_Debug CMakeFiles/error2.dir/Chapter15/异常的再抛出.cpp.o
+  FLAGS = -frtti -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/error2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = error2
+  TARGET_PDB = error2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target exception_override
+
+
+#############################################
+# Order-only phony target for exception_override
+
+build cmake_object_order_depends_target_exception_override: phony || CMakeFiles/exception_override.dir
+
+build CMakeFiles/exception_override.dir/Chapter15/创建自己的异常类.cpp.o: CXX_COMPILER__exception_override_unscanned_Debug /Users/momo/Desktop/CPP/Chapter15/创建自己的异常类.cpp || cmake_object_order_depends_target_exception_override
+  DEP_FILE = CMakeFiles/exception_override.dir/Chapter15/创建自己的异常类.cpp.o.d
+  FLAGS = -frtti -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/exception_override.dir
+  OBJECT_FILE_DIR = CMakeFiles/exception_override.dir/Chapter15
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exception_override
+
+
+#############################################
+# Link the executable exception_override
+
+build exception_override: CXX_EXECUTABLE_LINKER__exception_override_Debug CMakeFiles/exception_override.dir/Chapter15/创建自己的异常类.cpp.o
+  FLAGS = -frtti -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/exception_override.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = exception_override
+  TARGET_PDB = exception_override.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target catch_unexpected_err
+
+
+#############################################
+# Order-only phony target for catch_unexpected_err
+
+build cmake_object_order_depends_target_catch_unexpected_err: phony || CMakeFiles/catch_unexpected_err.dir
+
+build CMakeFiles/catch_unexpected_err.dir/Chapter15/捕获非标准的异常.cpp.o: CXX_COMPILER__catch_unexpected_err_unscanned_Debug /Users/momo/Desktop/CPP/Chapter15/捕获非标准的异常.cpp || cmake_object_order_depends_target_catch_unexpected_err
+  DEP_FILE = CMakeFiles/catch_unexpected_err.dir/Chapter15/捕获非标准的异常.cpp.o.d
+  FLAGS = -frtti -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/catch_unexpected_err.dir
+  OBJECT_FILE_DIR = CMakeFiles/catch_unexpected_err.dir/Chapter15
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target catch_unexpected_err
+
+
+#############################################
+# Link the executable catch_unexpected_err
+
+build catch_unexpected_err: CXX_EXECUTABLE_LINKER__catch_unexpected_err_Debug CMakeFiles/catch_unexpected_err.dir/Chapter15/捕获非标准的异常.cpp.o
+  FLAGS = -frtti -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/catch_unexpected_err.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = catch_unexpected_err
+  TARGET_PDB = catch_unexpected_err.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RTTI1
+
+
+#############################################
+# Order-only phony target for RTTI1
+
+build cmake_object_order_depends_target_RTTI1: phony || CMakeFiles/RTTI1.dir
+
+build CMakeFiles/RTTI1.dir/Chapter15/dynamic_cast类的转换.cpp.o: CXX_COMPILER__RTTI1_unscanned_Debug /Users/momo/Desktop/CPP/Chapter15/dynamic_cast类的转换.cpp || cmake_object_order_depends_target_RTTI1
+  DEP_FILE = CMakeFiles/RTTI1.dir/Chapter15/dynamic_cast类的转换.cpp.o.d
+  FLAGS = -frtti -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/RTTI1.dir
+  OBJECT_FILE_DIR = CMakeFiles/RTTI1.dir/Chapter15
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RTTI1
+
+
+#############################################
+# Link the executable RTTI1
+
+build RTTI1: CXX_EXECUTABLE_LINKER__RTTI1_Debug CMakeFiles/RTTI1.dir/Chapter15/dynamic_cast类的转换.cpp.o
+  FLAGS = -frtti -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/RTTI1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = RTTI1
+  TARGET_PDB = RTTI1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RTTI2
+
+
+#############################################
+# Order-only phony target for RTTI2
+
+build cmake_object_order_depends_target_RTTI2: phony || CMakeFiles/RTTI2.dir
+
+build CMakeFiles/RTTI2.dir/Chapter15/typeid的使用.cpp.o: CXX_COMPILER__RTTI2_unscanned_Debug /Users/momo/Desktop/CPP/Chapter15/typeid的使用.cpp || cmake_object_order_depends_target_RTTI2
+  DEP_FILE = CMakeFiles/RTTI2.dir/Chapter15/typeid的使用.cpp.o.d
+  FLAGS = -frtti -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/RTTI2.dir
+  OBJECT_FILE_DIR = CMakeFiles/RTTI2.dir/Chapter15
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RTTI2
+
+
+#############################################
+# Link the executable RTTI2
+
+build RTTI2: CXX_EXECUTABLE_LINKER__RTTI2_Debug CMakeFiles/RTTI2.dir/Chapter15/typeid的使用.cpp.o
+  FLAGS = -frtti -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/RTTI2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = RTTI2
+  TARGET_PDB = RTTI2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target type_change
+
+
+#############################################
+# Order-only phony target for type_change
+
+build cmake_object_order_depends_target_type_change: phony || CMakeFiles/type_change.dir
+
+build CMakeFiles/type_change.dir/Chapter15/类型转换.cpp.o: CXX_COMPILER__type_change_unscanned_Debug /Users/momo/Desktop/CPP/Chapter15/类型转换.cpp || cmake_object_order_depends_target_type_change
+  DEP_FILE = CMakeFiles/type_change.dir/Chapter15/类型转换.cpp.o.d
+  FLAGS = -frtti -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/type_change.dir
+  OBJECT_FILE_DIR = CMakeFiles/type_change.dir/Chapter15
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target type_change
+
+
+#############################################
+# Link the executable type_change
+
+build type_change: CXX_EXECUTABLE_LINKER__type_change_Debug CMakeFiles/type_change.dir/Chapter15/类型转换.cpp.o
+  FLAGS = -frtti -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/type_change.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = type_change
+  TARGET_PDB = type_change.dbg
 
 
 #############################################
@@ -105,7 +291,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/momo/Desktop/CPP/cmake-build-debug
 
-build all: phony friend_template
+build all: phony error1 error2 exception_override catch_unexpected_err RTTI1 RTTI2 type_change
 
 # =============================================================================
 # Built-in targets

@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CPP",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "RTTI1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RTTI1-Debug-9ddb67a3cc532a778582.json",
+					"name" : "RTTI1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "RTTI2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-RTTI2-Debug-cf9ddab18c4469ac461c.json",
+					"name" : "RTTI2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "catch_unexpected_err::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-catch_unexpected_err-Debug-8ea1c45e09164ea70110.json",
+					"name" : "catch_unexpected_err",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "error1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-error1-Debug-a8271538dcb16b304236.json",
+					"name" : "error1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "error2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-error2-Debug-1829e2c968e2a78415e8.json",
+					"name" : "error2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exception_override::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exception_override-Debug-b1af3dbaf7d90cd9eb59.json",
+					"name" : "exception_override",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "type_change::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-type_change-Debug-e28f34a2aea2ecc174f8.json",
+					"name" : "type_change",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/momo/Desktop/CPP/cmake-build-debug",
+		"source" : "/Users/momo/Desktop/CPP"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
