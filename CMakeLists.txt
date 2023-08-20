@@ -175,4 +175,20 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -frtti")
 #add_executable(type_change
 #        Chapter15/类型转换.cpp)
 
-# 第十六章
+# 第十六章 (全部都是STL的应用，我们再STL那本书中好好学习)
+#add_executable(cin_and_string
+#        Chapter16/string1.cpp)
+#add_executable(smart_pointer
+#        Chapter16/智能指针.cpp)
+#add_executable(vector_in_use
+#        Chapter16/向量模板的使用.cpp)
+#add_executable(it_usage
+#        Chapter16/迭代器的使用.cpp)
+#add_executable(func_obj
+#        Chapter16/函数对象.cpp
+#        Chapter16/函数对象.h)
+#add_executable(adaptable_generator
+#        Chapter16/自适应生成器.cpp)
+#add_executable(initializer_list
+#        Chapter16/initializer_list的使用.cpp
+#        Chapter16/initializer_list的使用.h)
