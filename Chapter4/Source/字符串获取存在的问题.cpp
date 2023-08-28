@@ -41,7 +41,8 @@ void cin_string_problem() {
 void cin_string_problem_2() {
     char a[5];
     char b[5];
-    /* 输入的字符过多，溢出，但是没有清理缓存区，下一次 cin 直接读取缓存区的内容，跳过读取
+    /* 输入的字符过多，溢出，但是没有清理缓存区，
+     * 下一次 cin 直接读取缓存区的内容，跳过读取
      * */
     cin.getline(a, 5);
     cin.get(b, 5);

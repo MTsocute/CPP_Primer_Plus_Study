@@ -73,7 +73,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -frtti")
 #add_executable(template_reload Chapter8/Source/模版重载.cpp)
 #add_executable(difference_btw_template_Specialization_and_instantiation Chapter8/Source/模版实例化和具体化.cpp)
 
-## 第九章
+# 第九章
 #add_executable(extern_declaration Chapter9/support.cpp Chapter9/external.cpp)
 #add_executable(detail_of_multi_files Chapter9/外部链接需要注意的问题.cpp Chapter9/辅助文件.cpp)
 #add_executable(static_local_var Chapter9/无链接性的局部变量.cpp)
@@ -81,18 +81,18 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -frtti")
 #add_executable(new_supplement Chapter9/new补充.cpp)
 #add_executable(namespace Chapter9/命名空间.cpp)
 
-## 第十章
+# 第十章
 #add_executable(class_demo Chapter10/Source/类演示.cpp Chapter10/Header/类演示.h)
 #add_executable(constructor_func Chapter10/Source/构造函数.cpp)
 #add_executable(destructor_func Chapter10/Source/析构函数.cpp)
 #add_executable(return_this Chapter10/Source/不同方法返回this.cpp)
 
-## 第十一章
+# 第十一章
 #add_executable(op_reload Chapter11/Source/运算符重载.cpp Chapter11/Header/运算符重载.h)
 #add_executable(friend Chapter11/Source/友元.cpp)
 #add_executable(transform_of_class Chapter11/Source/类的自动转换和强制转换.cpp)
 
-## 第十二章
+# 第十二章
 #add_executable(static_member_class Chapter12/Source/静态成员类.cpp)
 #add_executable(cp_constructor_func
 #        Chapter12/Source/复制构造函数.cpp
@@ -192,3 +192,16 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -frtti")
 #add_executable(initializer_list
 #        Chapter16/initializer_list的使用.cpp
 #        Chapter16/initializer_list的使用.h)
+
+# 第十七章
+add_executable(ostream_method
+        Chapter17/ostream其他方法.cpp
+        Chapter17/ostream其他方法.h)
+add_executable(cout_format
+        Chapter17/cout输出格式的控制.cpp)
+add_executable(cin_method
+        Chapter17/cin的一些操作方法.cpp)
+add_executable(file_IO
+        Chapter17/文件简单IO.cpp)
+add_executable(bin_file
+        Chapter17/二进制文件IO.cpp)

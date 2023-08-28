@@ -1,9 +1,7 @@
-/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/cin_and_string.dir
-/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/smart_pointer.dir
-/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/vector_in_use.dir
-/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/it_usage.dir
-/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/func_obj.dir
-/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/adaptable_generator.dir
-/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/initializer_list.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/ostream_method.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/cout_format.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/cin_method.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/file_IO.dir
+/Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/bin_file.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/momo/Desktop/CPP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
