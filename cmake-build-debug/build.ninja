@@ -41,159 +41,221 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/momo/Desktop/CPP/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target ostream_method
+# Object build statements for EXECUTABLE target right_value_ref
 
 
 #############################################
-# Order-only phony target for ostream_method
+# Order-only phony target for right_value_ref
 
-build cmake_object_order_depends_target_ostream_method: phony || CMakeFiles/ostream_method.dir
+build cmake_object_order_depends_target_right_value_ref: phony || CMakeFiles/right_value_ref.dir
 
-build CMakeFiles/ostream_method.dir/Chapter17/ostream其他方法.cpp.o: CXX_COMPILER__ostream_method_unscanned_Debug /Users/momo/Desktop/CPP/Chapter17/ostream其他方法.cpp || cmake_object_order_depends_target_ostream_method
-  DEP_FILE = CMakeFiles/ostream_method.dir/Chapter17/ostream其他方法.cpp.o.d
+build CMakeFiles/right_value_ref.dir/Chapter18/右值引用.cpp.o: CXX_COMPILER__right_value_ref_unscanned_Debug /Users/momo/Desktop/CPP/Chapter18/右值引用.cpp || cmake_object_order_depends_target_right_value_ref
+  DEP_FILE = CMakeFiles/right_value_ref.dir/Chapter18/右值引用.cpp.o.d
   FLAGS = -frtti -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/ostream_method.dir
-  OBJECT_FILE_DIR = CMakeFiles/ostream_method.dir/Chapter17
+  OBJECT_DIR = CMakeFiles/right_value_ref.dir
+  OBJECT_FILE_DIR = CMakeFiles/right_value_ref.dir/Chapter18
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target ostream_method
+# Link build statements for EXECUTABLE target right_value_ref
 
 
 #############################################
-# Link the executable ostream_method
+# Link the executable right_value_ref
 
-build ostream_method: CXX_EXECUTABLE_LINKER__ostream_method_Debug CMakeFiles/ostream_method.dir/Chapter17/ostream其他方法.cpp.o
+build right_value_ref: CXX_EXECUTABLE_LINKER__right_value_ref_Debug CMakeFiles/right_value_ref.dir/Chapter18/右值引用.cpp.o
   FLAGS = -frtti -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/ostream_method.dir
+  OBJECT_DIR = CMakeFiles/right_value_ref.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = ostream_method
-  TARGET_PDB = ostream_method.dbg
+  TARGET_FILE = right_value_ref
+  TARGET_PDB = right_value_ref.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target cout_format
+# Object build statements for EXECUTABLE target prohibit_default_func
 
 
 #############################################
-# Order-only phony target for cout_format
+# Order-only phony target for prohibit_default_func
 
-build cmake_object_order_depends_target_cout_format: phony || CMakeFiles/cout_format.dir
+build cmake_object_order_depends_target_prohibit_default_func: phony || CMakeFiles/prohibit_default_func.dir
 
-build CMakeFiles/cout_format.dir/Chapter17/cout输出格式的控制.cpp.o: CXX_COMPILER__cout_format_unscanned_Debug /Users/momo/Desktop/CPP/Chapter17/cout输出格式的控制.cpp || cmake_object_order_depends_target_cout_format
-  DEP_FILE = CMakeFiles/cout_format.dir/Chapter17/cout输出格式的控制.cpp.o.d
+build CMakeFiles/prohibit_default_func.dir/Chapter18/禁止类的一些构造方法.cpp.o: CXX_COMPILER__prohibit_default_func_unscanned_Debug /Users/momo/Desktop/CPP/Chapter18/禁止类的一些构造方法.cpp || cmake_object_order_depends_target_prohibit_default_func
+  DEP_FILE = CMakeFiles/prohibit_default_func.dir/Chapter18/禁止类的一些构造方法.cpp.o.d
   FLAGS = -frtti -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/cout_format.dir
-  OBJECT_FILE_DIR = CMakeFiles/cout_format.dir/Chapter17
+  OBJECT_DIR = CMakeFiles/prohibit_default_func.dir
+  OBJECT_FILE_DIR = CMakeFiles/prohibit_default_func.dir/Chapter18
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target cout_format
+# Link build statements for EXECUTABLE target prohibit_default_func
 
 
 #############################################
-# Link the executable cout_format
+# Link the executable prohibit_default_func
 
-build cout_format: CXX_EXECUTABLE_LINKER__cout_format_Debug CMakeFiles/cout_format.dir/Chapter17/cout输出格式的控制.cpp.o
+build prohibit_default_func: CXX_EXECUTABLE_LINKER__prohibit_default_func_Debug CMakeFiles/prohibit_default_func.dir/Chapter18/禁止类的一些构造方法.cpp.o
   FLAGS = -frtti -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/cout_format.dir
+  OBJECT_DIR = CMakeFiles/prohibit_default_func.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = cout_format
-  TARGET_PDB = cout_format.dbg
+  TARGET_FILE = prohibit_default_func
+  TARGET_PDB = prohibit_default_func.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target cin_method
+# Object build statements for EXECUTABLE target delegating_constructor
 
 
 #############################################
-# Order-only phony target for cin_method
+# Order-only phony target for delegating_constructor
 
-build cmake_object_order_depends_target_cin_method: phony || CMakeFiles/cin_method.dir
+build cmake_object_order_depends_target_delegating_constructor: phony || CMakeFiles/delegating_constructor.dir
 
-build CMakeFiles/cin_method.dir/Chapter17/cin的一些操作方法.cpp.o: CXX_COMPILER__cin_method_unscanned_Debug /Users/momo/Desktop/CPP/Chapter17/cin的一些操作方法.cpp || cmake_object_order_depends_target_cin_method
-  DEP_FILE = CMakeFiles/cin_method.dir/Chapter17/cin的一些操作方法.cpp.o.d
+build CMakeFiles/delegating_constructor.dir/Chapter18/委托构造函数.cpp.o: CXX_COMPILER__delegating_constructor_unscanned_Debug /Users/momo/Desktop/CPP/Chapter18/委托构造函数.cpp || cmake_object_order_depends_target_delegating_constructor
+  DEP_FILE = CMakeFiles/delegating_constructor.dir/Chapter18/委托构造函数.cpp.o.d
   FLAGS = -frtti -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/cin_method.dir
-  OBJECT_FILE_DIR = CMakeFiles/cin_method.dir/Chapter17
+  OBJECT_DIR = CMakeFiles/delegating_constructor.dir
+  OBJECT_FILE_DIR = CMakeFiles/delegating_constructor.dir/Chapter18
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target cin_method
+# Link build statements for EXECUTABLE target delegating_constructor
 
 
 #############################################
-# Link the executable cin_method
+# Link the executable delegating_constructor
 
-build cin_method: CXX_EXECUTABLE_LINKER__cin_method_Debug CMakeFiles/cin_method.dir/Chapter17/cin的一些操作方法.cpp.o
+build delegating_constructor: CXX_EXECUTABLE_LINKER__delegating_constructor_Debug CMakeFiles/delegating_constructor.dir/Chapter18/委托构造函数.cpp.o
   FLAGS = -frtti -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/cin_method.dir
+  OBJECT_DIR = CMakeFiles/delegating_constructor.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = cin_method
-  TARGET_PDB = cin_method.dbg
+  TARGET_FILE = delegating_constructor
+  TARGET_PDB = delegating_constructor.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target file_IO
+# Object build statements for EXECUTABLE target inheritance_constructor
 
 
 #############################################
-# Order-only phony target for file_IO
+# Order-only phony target for inheritance_constructor
 
-build cmake_object_order_depends_target_file_IO: phony || CMakeFiles/file_IO.dir
+build cmake_object_order_depends_target_inheritance_constructor: phony || CMakeFiles/inheritance_constructor.dir
 
-build CMakeFiles/file_IO.dir/Chapter17/文件简单IO.cpp.o: CXX_COMPILER__file_IO_unscanned_Debug /Users/momo/Desktop/CPP/Chapter17/文件简单IO.cpp || cmake_object_order_depends_target_file_IO
-  DEP_FILE = CMakeFiles/file_IO.dir/Chapter17/文件简单IO.cpp.o.d
+build CMakeFiles/inheritance_constructor.dir/Chapter18/继承构造函数.cpp.o: CXX_COMPILER__inheritance_constructor_unscanned_Debug /Users/momo/Desktop/CPP/Chapter18/继承构造函数.cpp || cmake_object_order_depends_target_inheritance_constructor
+  DEP_FILE = CMakeFiles/inheritance_constructor.dir/Chapter18/继承构造函数.cpp.o.d
   FLAGS = -frtti -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/file_IO.dir
-  OBJECT_FILE_DIR = CMakeFiles/file_IO.dir/Chapter17
+  OBJECT_DIR = CMakeFiles/inheritance_constructor.dir
+  OBJECT_FILE_DIR = CMakeFiles/inheritance_constructor.dir/Chapter18
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target file_IO
+# Link build statements for EXECUTABLE target inheritance_constructor
 
 
 #############################################
-# Link the executable file_IO
+# Link the executable inheritance_constructor
 
-build file_IO: CXX_EXECUTABLE_LINKER__file_IO_Debug CMakeFiles/file_IO.dir/Chapter17/文件简单IO.cpp.o
+build inheritance_constructor: CXX_EXECUTABLE_LINKER__inheritance_constructor_Debug CMakeFiles/inheritance_constructor.dir/Chapter18/继承构造函数.cpp.o
   FLAGS = -frtti -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/file_IO.dir
+  OBJECT_DIR = CMakeFiles/inheritance_constructor.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = file_IO
-  TARGET_PDB = file_IO.dbg
+  TARGET_FILE = inheritance_constructor
+  TARGET_PDB = inheritance_constructor.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target bin_file
+# Object build statements for EXECUTABLE target Lambda_func
 
 
 #############################################
-# Order-only phony target for bin_file
+# Order-only phony target for Lambda_func
 
-build cmake_object_order_depends_target_bin_file: phony || CMakeFiles/bin_file.dir
+build cmake_object_order_depends_target_Lambda_func: phony || CMakeFiles/Lambda_func.dir
 
-build CMakeFiles/bin_file.dir/Chapter17/二进制文件IO.cpp.o: CXX_COMPILER__bin_file_unscanned_Debug /Users/momo/Desktop/CPP/Chapter17/二进制文件IO.cpp || cmake_object_order_depends_target_bin_file
-  DEP_FILE = CMakeFiles/bin_file.dir/Chapter17/二进制文件IO.cpp.o.d
+build CMakeFiles/Lambda_func.dir/Chapter18/lambda函数.cpp.o: CXX_COMPILER__Lambda_func_unscanned_Debug /Users/momo/Desktop/CPP/Chapter18/lambda函数.cpp || cmake_object_order_depends_target_Lambda_func
+  DEP_FILE = CMakeFiles/Lambda_func.dir/Chapter18/lambda函数.cpp.o.d
   FLAGS = -frtti -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/bin_file.dir
-  OBJECT_FILE_DIR = CMakeFiles/bin_file.dir/Chapter17
+  OBJECT_DIR = CMakeFiles/Lambda_func.dir
+  OBJECT_FILE_DIR = CMakeFiles/Lambda_func.dir/Chapter18
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target bin_file
+# Link build statements for EXECUTABLE target Lambda_func
 
 
 #############################################
-# Link the executable bin_file
+# Link the executable Lambda_func
 
-build bin_file: CXX_EXECUTABLE_LINKER__bin_file_Debug CMakeFiles/bin_file.dir/Chapter17/二进制文件IO.cpp.o
+build Lambda_func: CXX_EXECUTABLE_LINKER__Lambda_func_Debug CMakeFiles/Lambda_func.dir/Chapter18/lambda函数.cpp.o
   FLAGS = -frtti -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
-  OBJECT_DIR = CMakeFiles/bin_file.dir
+  OBJECT_DIR = CMakeFiles/Lambda_func.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = bin_file
-  TARGET_PDB = bin_file.dbg
+  TARGET_FILE = Lambda_func
+  TARGET_PDB = Lambda_func.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target adapter
+
+
+#############################################
+# Order-only phony target for adapter
+
+build cmake_object_order_depends_target_adapter: phony || CMakeFiles/adapter.dir
+
+build CMakeFiles/adapter.dir/Chapter18/包装器.cpp.o: CXX_COMPILER__adapter_unscanned_Debug /Users/momo/Desktop/CPP/Chapter18/包装器.cpp || cmake_object_order_depends_target_adapter
+  DEP_FILE = CMakeFiles/adapter.dir/Chapter18/包装器.cpp.o.d
+  FLAGS = -frtti -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/adapter.dir
+  OBJECT_FILE_DIR = CMakeFiles/adapter.dir/Chapter18
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target adapter
+
+
+#############################################
+# Link the executable adapter
+
+build adapter: CXX_EXECUTABLE_LINKER__adapter_Debug CMakeFiles/adapter.dir/Chapter18/包装器.cpp.o
+  FLAGS = -frtti -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/adapter.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = adapter
+  TARGET_PDB = adapter.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target variadic_template
+
+
+#############################################
+# Order-only phony target for variadic_template
+
+build cmake_object_order_depends_target_variadic_template: phony || CMakeFiles/variadic_template.dir
+
+build CMakeFiles/variadic_template.dir/Chapter18/可变参数模版.cpp.o: CXX_COMPILER__variadic_template_unscanned_Debug /Users/momo/Desktop/CPP/Chapter18/可变参数模版.cpp || cmake_object_order_depends_target_variadic_template
+  DEP_FILE = CMakeFiles/variadic_template.dir/Chapter18/可变参数模版.cpp.o.d
+  FLAGS = -frtti -g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/variadic_template.dir
+  OBJECT_FILE_DIR = CMakeFiles/variadic_template.dir/Chapter18
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target variadic_template
+
+
+#############################################
+# Link the executable variadic_template
+
+build variadic_template: CXX_EXECUTABLE_LINKER__variadic_template_Debug CMakeFiles/variadic_template.dir/Chapter18/可变参数模版.cpp.o
+  FLAGS = -frtti -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk
+  OBJECT_DIR = CMakeFiles/variadic_template.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = variadic_template
+  TARGET_PDB = variadic_template.dbg
 
 
 #############################################
@@ -230,7 +292,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/momo/Desktop/CPP/cmake-build-debug
 
-build all: phony ostream_method cout_format cin_method file_IO bin_file
+build all: phony right_value_ref prohibit_default_func delegating_constructor inheritance_constructor Lambda_func adapter variadic_template
 
 # =============================================================================
 # Built-in targets

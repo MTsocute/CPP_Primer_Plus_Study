@@ -194,14 +194,33 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -frtti")
 #        Chapter16/initializer_list的使用.h)
 
 # 第十七章
-add_executable(ostream_method
-        Chapter17/ostream其他方法.cpp
-        Chapter17/ostream其他方法.h)
-add_executable(cout_format
-        Chapter17/cout输出格式的控制.cpp)
-add_executable(cin_method
-        Chapter17/cin的一些操作方法.cpp)
-add_executable(file_IO
-        Chapter17/文件简单IO.cpp)
-add_executable(bin_file
-        Chapter17/二进制文件IO.cpp)
+#add_executable(ostream_method
+#        Chapter17/ostream其他方法.cpp
+#        Chapter17/ostream其他方法.h)
+#add_executable(cout_format
+#        Chapter17/cout输出格式的控制.cpp)
+#add_executable(cin_method
+#        Chapter17/cin的一些操作方法.cpp)
+#add_executable(file_IO
+#        Chapter17/文件简单IO.cpp)
+#add_executable(bin_file
+#        Chapter17/二进制文件IO.cpp)
+
+# 第十八章
+add_executable(right_value_ref
+        Chapter18/右值引用.cpp)
+add_executable(prohibit_default_func
+        Chapter18/禁止类的一些构造方法.cpp
+        Chapter18/prohibited_func.h)
+add_executable(delegating_constructor
+        Chapter18/委托构造函数.cpp)
+add_executable(inheritance_constructor
+        Chapter18/继承构造函数.cpp
+        Chapter18/继承构造函数.h)
+add_executable(Lambda_func
+        Chapter18/lambda函数.cpp)
+add_executable(adapter
+        Chapter18/包装器.cpp
+        Chapter18/包装器.h)
+add_executable(variadic_template
+        Chapter18/可变参数模版.cpp)
